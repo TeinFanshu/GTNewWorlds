@@ -1,1 +1,1 @@
-# GTNewWorlds基于MineTweaker与MTUtils的scripts文件
+# GTNewWorlds Changelogs
