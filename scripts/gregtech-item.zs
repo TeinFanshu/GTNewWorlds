@@ -283,7 +283,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 256, [10000], [<Avariti
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 256, [10000], [<Avaritia:Resource:1>, <gregtech:gt.meta.ingot:8610>, <gregtech:gt.meta.ingot:500>], [<liquid:molten.solderingalloy>*288], [null], [<IC2:itemIngot:4>*32]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 256, [10000], [<Avaritia:Resource:4>, <gregtech:gt.meta.plate:8610>, <gregtech:gt.meta.plate:500>], [<liquid:molten.solderingalloy>*288], [null], [<IC2:itemIngot:4>*15]);
-
+/////////////////////////////
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 256, [10000], [<gregtech:gt.multiitem.technological:30306>*2, <gregtech:gt.meta.plate:9175>*4, <gregtech:gt.meta.screw:220>*16], [<liquid:molten.solderingalloy>*288], [null], [<gregtech:gt.multiitem.technological:32004>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.scannermolecular", false, 256, 400, [1000], [<gregtech:gt.meta.ingot:8798>, 
