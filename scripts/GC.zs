@@ -517,7 +517,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 400, [10000
 MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 400, [10000], [<gregapi:gt.integrated_circuit:5>*0, <GTaddition:Item-68>, <IC2:blockITNT>*48], [<GalaxySpace:item.HeavyDutyPlate5>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 400, [10000], [<gregapi:gt.integrated_circuit:5>*0, <GTaddition:Item-68>, <minecraft:tnt>*64], [<GalaxySpace:item.HeavyDutyPlate5>]); 
-////////RocketTech//////// 
+////////RocketTechnological//////// 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 256, 800, [10000], [<GalacticraftCore:item.heavyPlating>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-69>]);
  
 MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 1024, 800, [10000], [<GalacticraftCore:item.schematic:1>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-70>]);
