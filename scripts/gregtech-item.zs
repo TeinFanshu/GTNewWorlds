@@ -84,7 +84,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.electrolyzer", false, 64, 72, [10000], [<gr
 
 MTUtilsGT.addCustomRecipe("gt.recipe.electrolyzer", false, 16, 800, [10000], [<gregapi:gt.integrated_circuit>*0, <gregtech:gt.meta.storage.dust:8200>*1], [<gregtech:gt.meta.dust:60>*9]); 
 
-MTUtilsGT.addCustomRecipe("gt.recipe.electrolyzer", false, 22, 100, [10000], [<gregapi:gt.integrated_circuit>*0, <gregtech:gt.meta.dust:8201>*1], [<gregtech:gt.meta.dust:60>*1]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.electrolyzer", false, 16, 100, [10000], [<gregapi:gt.integrated_circuit>*0, <gregtech:gt.meta.dust:8201>*1], [<gregtech:gt.meta.dust:60>]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.electrolyzer", false, 48, 500, [10000], [<gregapi:gt.integrated_circuit>*0, <gregtech:gt.meta.storage.dust:8201>*1], [<gregtech:gt.meta.dust:60>*9]); 
 
@@ -489,17 +489,17 @@ MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 2048, 600, [10000], [<greg
 
 MTUtilsGT.addCustomRecipe("gt.recipe.centrifuge", false, 512, 64, [10000, 10000, 10000, 8000, 8000], [null], [<liquid:endergoo>*1000], [null], [<gregtech:gt.meta.dust:9195>, <gregtech:gt.meta.dust:9136>, <gregtech:gt.meta.dust:9214>, <gregtech:gt.meta.dustTiny:780>, <gregtech:gt.meta.dustTiny:770>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 704, 150, [10000], [<GTaddition:Item-61>, <gregtech:gt.meta.plateGem:8001>*4, <gregtech:gt.meta.foil:8663>*12, <gregtech:gt.meta.wireFine:8640>*32, <GTaddition:Item-47>*4], [<GTaddition:Item-59>*4]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 150, [10000], [<GTaddition:Item-61>, <gregtech:gt.meta.plateGem:8001>*4, <gregtech:gt.meta.foil:8663>*12, <gregtech:gt.meta.wireFine:8640>*32, <GTaddition:Item-47>*4], [<GTaddition:Item-59>*4]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 704, 200, [10000], [<gregtech:gt.meta.plateCurved:8218>*8, <gregtech:gt.meta.plateTiny:390>*8, <gregtech:gt.meta.bolt:390>*16, <gregtech:gt.meta.dust:490>*2, <gregtech:gt.meta.wireFine:8640>*8], [<GTaddition:Item-58>*8]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 200, [10000], [<gregtech:gt.meta.plateCurved:8218>*8, <gregtech:gt.meta.plateTiny:390>*8, <gregtech:gt.meta.bolt:390>*16, <gregtech:gt.meta.dust:490>*2, <gregtech:gt.meta.wireFine:8640>*8], [<GTaddition:Item-58>*8]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 704, 50, [10000], [<GTaddition:Item-60>, <gregtech:gt.meta.lens:8299>*0], [<liquid:molten.electrum>*144], [null], [<GTaddition:Item-61>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 100, [10000], [<GTaddition:Item-60>, <gregtech:gt.meta.lens:8299>*0], [<liquid:molten.electrum>*144], [null], [<GTaddition:Item-61>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.burnmixer", false, 16, 100, [10000], [<gregtech:gt.meta.plate:8225>, <gregtech:gt.meta.dust:9105>*8, <gregtech:gt.meta.foil:8640>*8], [<GTaddition:Item-60>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 16, 5000, [10000], [<gregtech:gt.meta.plateTiny:470>*16, <gregtech:gt.meta.plateTiny:280>*16, <gregtech:gt.meta.plateTiny:500>*16], [<GTaddition:Item-63>*16]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 704, 100, [10000], [<GTaddition:Item-63>*4, <GTaddition:Item-25>*2], [<liquid:molten.annealedcopper>*72], [null], [<GTaddition:Item-62>*2]);
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 100, [10000], [<GTaddition:Item-63>*4, <GTaddition:Item-25>*2], [<liquid:molten.annealedcopper>*72], [null], [<GTaddition:Item-62>*2]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 400, [10000], [<GTaddition:Item-62>*4, <GTaddition:Item-59>*5, <GTaddition:Item-58>*3, <GTaddition:Item-26>*2, <gregtech:gt.meta.foil:8796>*32, <GTaddition:Item-16>], [<liquid:molten.tungstensteel>*288], [null], [<GTaddition:Item-18>]);
 
