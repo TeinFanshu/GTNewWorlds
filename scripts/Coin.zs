@@ -35,7 +35,7 @@ recipes.addShaped(<GTaddition:Item-53>*9,
     [null,                     null,null],
 	[null,                     null,null]]
  );
-
+//////Coin1//////
 MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 16, 128, [10000], [<gregapi:gt.integrated_circuit:1>*0, <GTaddition:Item-51>*8], [<gregtech:gt.meta.ore.normal.default:500>*32]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 16, 128, [10000], [<gregapi:gt.integrated_circuit:2>*0, <GTaddition:Item-51>*8], [<gregtech:gt.block.rockores>*64]); 
@@ -51,7 +51,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 16, 128, [10000], [<greg
 MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 16, 128, [10000], [<gregapi:gt.integrated_circuit:7>*0, <GTaddition:Item-51>*8], [<gregtech:gt.meta.ore.normal.default:9213>*64]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 16, 128, [10000], [<gregapi:gt.integrated_circuit:8>*0, <GTaddition:Item-51>*8], [<gregtech:gt.meta.ore.normal.default:9121>*64]); 
-
+//////Coin2//////
 MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 64, 128, [10000], [<gregapi:gt.integrated_circuit>*0, <GTaddition:Item-52>*4], [<gregtech:gt.meta.ore.normal.default:290>*64, <gregtech:gt.meta.ore.normal.default:290>*64]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 64, 128, [10000], [<gregapi:gt.integrated_circuit:1>*0, <GTaddition:Item-52>*8], [<gregtech:gt.meta.ore.normal.default:500>*64]); 
@@ -69,7 +69,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 64, 128, [10000], [<greg
 MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 64, 256, [10000], [<gregapi:gt.integrated_circuit:7>*0, <GTaddition:Item-52>*5], [<gregtech:gt.meta.crushed:8300>*16]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 64, 128, [10000], [<gregapi:gt.integrated_circuit:8>*0, <GTaddition:Item-52>*5], [<gregtech:gt.meta.ore.normal.default:9118>*64]); 
-
+//////coin3//////
 MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 256, 256, [10000], [<gregapi:gt.integrated_circuit>*0, <GTaddition:Item-53>*8], [<gregtech:gt.meta.ore.normal.default:280>*64]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.lightning", false, 512, 256, [10000], [<gregapi:gt.integrated_circuit:1>*0, <GTaddition:Item-53>*4], [<gregtech:gt.meta.ore.normal.default:780>*64, <gregtech:gt.meta.ore.normal.default:780>*64]); 
