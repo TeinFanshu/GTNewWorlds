@@ -1,6 +1,3 @@
-
-
-import mods.nei.NEI;
 /////welding_machine/////
 import mods.MTUtilsGT;
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 128, 400, [10000], [<GTaddition:Block-3>, <gregtech:gt.multitileentity:28765>*2, <gregtech:gt.multiitem.technological:12143>*2, <gregtech:gt.meta.spring:8647>, <gregtech:gt.multiitem.technological:30303>*2, <gregtech:gt.multiitem.technological:12003>*4], [<liquid:molten.solderingalloy>*576], [null], [<gregtech:gt.multitileentity:10113>]);
