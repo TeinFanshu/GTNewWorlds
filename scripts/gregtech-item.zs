@@ -225,7 +225,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 200, [10000], [<IC2:b
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 200, [10000], [<IC2:blockAlloyGlass>*5, <gregtech:gt.meta.plateGem:8346>*4], [<appliedenergistics2:tile.BlockQuartzGlass>*5]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 25, [10000], [<appliedenergistics2:tile.BlockQuartzGlass>, <gregtech:gt.meta.plate:8341>*2], [<appliedenergistics2:tile.BlockQuartzLamp>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 100, [10000], [<appliedenergistics2:tile.BlockQuartzGlass>, <gregtech:gt.meta.plate:8341>*2], [<appliedenergistics2:tile.BlockQuartzLamp>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 256, 1000, [10000], [<gregtech:gt.multiitem.technological:32024>, <gregtech:gt.meta.plateDense:8635>*4, <gregtech:gt.meta.plateGem:140>*8, <gregtech:gt.multitileentity:18200>, <gregtech:gt.multitileentity:28700>*16], [<liquid:molten.solderingalloy>*288], [null], [<GTaddition:Item-32>]);
 
