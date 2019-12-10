@@ -1,5 +1,17 @@
 
 import mods.MTUtilsGT;
+///TCF///
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 6000, [10000], [<minecraft:diamond>, <gregtech:gt.multiitem.technological:30301>], [<GTaddition:Item-15>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 6000, [10000], [<minecraft:diamond>, <gregtech:gt.multiitem.technological:30302>], [<GTaddition:Item-15>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 6000, [10000], [<minecraft:diamond>, <gregtech:gt.multiitem.technological:30303>], [<GTaddition:Item-15>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 6000, [10000], [<minecraft:diamond>, <gregtech:gt.multiitem.technological:30304>], [<GTaddition:Item-15>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 6000, [10000], [<minecraft:diamond>, <gregtech:gt.multiitem.technological:30305>], [<GTaddition:Item-15>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 6000, [10000], [<minecraft:diamond>, <gregtech:gt.multiitem.technological:30306>], [<GTaddition:Item-15>]);
 ///PBC///
 MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 600, [10000], [<gregtech:gt.multiitem.technological:30500>, <gregtech:gt.multiitem.technological:30401>], [<gregtech:gt.multiitem.technological:30501>]);
 
@@ -309,8 +321,6 @@ MTUtilsGT.addCustomRecipe("gt.recipe.electrolyzer", false, 55, 3000, [10000], [<
 MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 10, [10000], [<gregtech:gt.meta.dust:510>, <gregtech:gt.meta.dust:310>], [<GTaddition:Item-40>*2]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 40, [10000], [<gregtech:gt.meta.dust:290>, <gregtech:gt.meta.dust:490>, <gregtech:gt.meta.dust:340>, <gregtech:gt.meta.dust:310>], [<GTaddition:Item-42>*4]); 
-
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 200, [10000], [<GTaddition:Item-17>*4, <GTaddition:Item-20>*2, <gregtech:gt.meta.wireFine:8796>*16, <gregtech:gt.meta.wireFine:8669>*32], [<liquid:molten.solderingalloy>*288], [null], [<GTaddition:Item-15>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 200, [10000], [<gregtech:gt.meta.plateCurved:9175>*4, <gregtech:gt.meta.dust:8031>*2, <gregtech:gt.meta.ring:8218>*3], [<liquid:molten.solderingalloy>*144], [null], [<GTaddition:Item-43>]);
 
