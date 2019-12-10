@@ -1,13 +1,13 @@
 
 import mods.MTUtilsGT;
 ///PBC///
-MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 600, [10000], [<gregtech:gt.multiitem.technological:30500>, <gregtech:gt.multiitem.technological:30401>, <GTaddition:Item-15>], [<gregtech:gt.multiitem.technological:30501>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 600, [10000], [<gregtech:gt.multiitem.technological:30500>, <gregtech:gt.multiitem.technological:30401>], [<gregtech:gt.multiitem.technological:30501>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 600, [10000], [<gregtech:gt.multiitem.technological:30500>, <gregtech:gt.multiitem.technological:30402>, <GTaddition:Item-15>], [<gregtech:gt.multiitem.technological:30502>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 600, [10000], [<gregtech:gt.multiitem.technological:30500>, <gregtech:gt.multiitem.technological:30402>], [<gregtech:gt.multiitem.technological:30502>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 600, [10000], [<gregtech:gt.multiitem.technological:30500>, <gregtech:gt.multiitem.technological:30403>, <GTaddition:Item-15>], [<gregtech:gt.multiitem.technological:30503>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 600, [10000], [<gregtech:gt.multiitem.technological:30500>, <gregtech:gt.multiitem.technological:30403>], [<gregtech:gt.multiitem.technological:30503>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 600, [10000], [<gregtech:gt.multiitem.technological:30500>, <gregtech:gt.multiitem.technological:30404>, <GTaddition:Item-15>], [<gregtech:gt.multiitem.technological:30504>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 600, [10000], [<gregtech:gt.multiitem.technological:30500>, <gregtech:gt.multiitem.technological:30404>], [<gregtech:gt.multiitem.technological:30504>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 800, [10000], [<gregtech:gt.multiitem.technological:30306>*4, <gregtech:gt.multiitem.technological:11006>*4, <GTaddition:Item-27>], [<gregtech:gt.multiitem.technological:30500>*2]);
 
