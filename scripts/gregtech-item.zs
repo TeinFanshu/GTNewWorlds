@@ -276,11 +276,11 @@ MTUtilsGT.addCustomRecipe("gt.recipe.cryomixer", false, 16, 600, [10000], [<GTad
 
 MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 1200, [10000], [<GTaddition:Item-22>*2, <gregtech:gt.meta.dustSmall:8268>],  [<liquid:liquidoxygen>*200, <liquid:propylene>*100, <liquid:chlorine>*100], [null], [<GTaddition:Item-20>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 800, [10000], [<GTaddition:Item-20>, <IC2:itemPartCarbonFibre>*2],  [<liquid:titaniumtetrachloride>*200], [null], [<GTaddition:Item-25>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 1000, [10000], [<GTaddition:Item-20>, <IC2:itemPartCarbonFibre>*2],  [<liquid:titaniumtetrachloride>*200], [null], [<GTaddition:Item-25>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 800, [10000], [<GTaddition:Item-25>, <gregtech:gt.meta.wireFine:8003>*8],  [<liquid:sulfuricacid>*500], [null], [<GTaddition:Item-26>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 1000, [10000], [<GTaddition:Item-25>, <gregtech:gt.meta.foil:780>*16],  [<liquid:sulfuricacid>*500], [null], [<GTaddition:Item-26>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 800, [10000], [<GTaddition:Item-26>, <gregtech:gt.meta.foil:8600>*32],  [<liquid:sulfuricacid>*500], [null], [<GTaddition:Item-27>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 16, 1000, [10000], [<GTaddition:Item-26>*2, <gregtech:gt.meta.foil:780>*16],  [<liquid:sulfuricacid>*500], [null], [<GTaddition:Item-27>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 240, [10000], [<gregtech:gt.multiitem.technological:30403>, <gregtech:gt.multiitem.technological:30304>], [<liquid:molten.solderingalloy>*576], [null], [<GTaddition:Item-29>]);
 
