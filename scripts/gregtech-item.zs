@@ -122,7 +122,19 @@ MTUtilsGT.addCustomRecipe("gt.recipe.crystallisationcrucible", false, 64, 60000,
 
 MTUtilsGT.addCustomRecipe("gt.recipe.autoclave", false, 0, 3000, [10000], [<GTaddition:Item-7>, <gregapi:gt.integrated_circuit>*0], [<liquid:steam>*102400], [null], [<GTaddition:Item-8>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 196, [10000, 7000], [<GTaddition:Item-8>], [<liquid:lubricant>*500], [null], [<GTaddition:Item-9>*3, <GTaddition:Item-2>]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 96, [10000, 7000], [<GTaddition:Item-8>], [<liquid:lubricant>*432], [null], [<GTaddition:Item-9>, <GTaddition:Item-2>]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 144, [10000, 7000], [<GTaddition:Item-8>], [<liquid:water>*768], [null], [<GTaddition:Item-9>, <GTaddition:Item-2>]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 196, [10000, 7000], [<GTaddition:Item-8>], [<liquid:ic2distilledwater>*576], [null], [<GTaddition:Item-9>, <GTaddition:Item-2>]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 800, [10000], [<GTaddition:Item-8>], [<liquid:nitrogen>*3000], [null], [<GTaddition:Item-9>*4, <GTaddition:Item-2>*2]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, [10000], [<GTaddition:Item-8>], [<liquid:helium>*300], [null], [<GTaddition:Item-9>*4, <GTaddition:Item-2>*2]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, [10000], [<GTaddition:Item-8>], [<liquid:neon>*300], [null], [<GTaddition:Item-9>*4, <GTaddition:Item-2>*2]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, [10000], [<GTaddition:Item-8>], [<liquid:argon>*300], [null], [<GTaddition:Item-9>*4, <GTaddition:Item-2>*2]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 600, [10000], [<gregtech:gt.multiitem.technological:30304>*2, <gregtech:gt.meta.machine:8631>, <gregtech:gt.multiitem.technological:12043>*3, <gregtech:gt.meta.springSmall:8631>*4, <gregtech:gt.meta.chain:8631>*2, <gregtech:gt.meta.wireFine:8669>*8], [<liquid:molten.solderingalloy>*144], [null], [<gregtech:gt.multitileentity:32751>]);
 
