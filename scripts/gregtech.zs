@@ -22,6 +22,34 @@ recipes.remove(<gregtech:gt.multitileentity:18104>);
 
 recipes.remove(<IC2:itemArmorJetpackElectric:27>);
 
+recipes.remove(<gregtech:gt.multitileentity:29566>);
+
+recipes.remove(<gregtech:gt.multitileentity:29350>);
+
+recipes.remove(<gregtech:gt.multitileentity:29266>);
+
+recipes.remove(<gregtech:gt.multitileentity:29267>);
+
+recipes.remove(<gregtech:gt.multitileentity:28666>);
+
+recipes.remove(<gregtech:gt.multitileentity:28416>);
+
+recipes.remove(<gregtech:gt.multitileentity:28417>);
+
+recipes.remove(<gregtech:gt.multitileentity:28667>);
+
+recipes.remove(<gregtech:gt.multitileentity:29666>);
+
+recipes.remove(<gregtech:gt.multitileentity:29667>);
+
+recipes.remove(<gregtech:gt.multitileentity:29367>);
+
+recipes.remove(<gregtech:gt.multitileentity:29366>);
+
+recipes.remove(<gregtech:gt.multitileentity:29216>);
+
+recipes.remove(<gregtech:gt.multitileentity:29217>);
+
 recipes.remove(<gregtech:gt.multitileentity:17998>);
 
 recipes.remove(<AFSU:AFSU>.withTag({energy: 0}));
