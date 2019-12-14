@@ -310,31 +310,16 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:300>,
 
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:16>);
 
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:16>*3,
-[[<appliedenergistics2:item.ItemMultiPart:140>,<gregtech:gt.meta.plateGem:8389>],
- [            <gregtech:gt.meta.plateGem:8389>,                            null]]
- );
- 
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:140>);
+
 recipes.remove(<appliedenergistics2:tile.BlockCharger>);
  
 recipes.remove(<appliedenergistics2:tile.BlockQuartzGrowthAccelerator>);
  
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:56>);
 
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:56>,
-[[<appliedenergistics2:item.ItemMultiPart:36>,      <gregtech:gt.meta.plate:8341>,<appliedenergistics2:item.ItemMultiPart:36>], 
- [                                       null,<gregtech:gt.multitileentity:24900>,                                       null],
- [<appliedenergistics2:item.ItemMultiPart:36>,      <gregtech:gt.meta.plate:8341>,<appliedenergistics2:item.ItemMultiPart:36>]]
- );
- 
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:76>);
 
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:76>,
-[[        <gregtech:gt.multitileentity:27006>,<appliedenergistics2:item.ItemMultiPart:56>,        <gregtech:gt.multitileentity:27006>],
- [<appliedenergistics2:item.ItemMultiPart:56>,                                       null,<appliedenergistics2:item.ItemMultiPart:56>],
- [        <gregtech:gt.multitileentity:27006>,<appliedenergistics2:item.ItemMultiPart:56>,        <gregtech:gt.multitileentity:27006>]]
- );
- 
 recipes.remove(<appliedenergistics2:tile.BlockChest>);
 
 recipes.addShaped(<appliedenergistics2:tile.BlockChest>,
@@ -345,9 +330,22 @@ recipes.addShaped(<appliedenergistics2:tile.BlockChest>,
  
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:39>);
  
+recipes.remove(<appliedenergistics2:tile.BlockSpatialIOPort>);
+
+recipes.remove(<appliedenergistics2:item.ToolMemoryCard>);
  
- 
- 
+recipes.remove(<appliedenergistics2:item.ToolColorApplicator>);
+
+recipes.addShaped(<appliedenergistics2:item.ToolColorApplicator>,
+[[ <gregtech:gt.meta.plateGem:8389>,              <gregtech:gt.meta.stickLong:8631>,             <gregtech:gt.meta.screw:8631>],
+ [<gregtech:gt.meta.stickLong:8631>,<appliedenergistics2:item.ItemMultiMaterial:36>,                                      null],
+ [    <gregtech:gt.meta.screw:8631>,                                           null,<appliedenergistics2:tile.BlockEnergyCell>]]
+ );
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzCuttingKnife>);
+
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzCuttingKnife>);
+
+
  
  
  
