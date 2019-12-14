@@ -528,7 +528,6 @@ MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 160, [10000], [<gregtech
 
 MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 160, [10000], [<gregtech:gt.meta.dust:8019>], [<liquid:ammonia>*800, <liquid:carbondioxide>*100], [null], [<IC2:itemFertilizer>*8]); 
 
-
 /////Avaritia/////
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 2048, 3000, [10000], [<Avaritia:Resource:1>*16,<gregtech:gt.multiitem.technological:30502>*5], [<liquid:radon>*5000], [null], [<Avaritia:Crystal_Matrix>]);
 //////////////////
