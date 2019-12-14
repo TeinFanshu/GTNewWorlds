@@ -285,12 +285,7 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:35>,
  
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:28>);
 
-recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:28>,
-[[<gregtech:gt.meta.plateGem:8300>,              <gregtech:gt.meta.plate:8631>,                         null],
- [<gregtech:gt.meta.plateGem:8320>,<gregtech:gt.multiitem.technological:30315>,<gregtech:gt.meta.plate:8631>],
- [<gregtech:gt.meta.plateGem:8300>,              <gregtech:gt.meta.plate:8631>,                         null]]
- );
- 
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:25>);
 
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:320>);
 

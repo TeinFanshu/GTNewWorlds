@@ -290,15 +290,57 @@ MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 512, 100, [10000], [<greg
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 200, [10000], [<appliedenergistics2:item.ItemMultiMaterial:39>, <gregtech:gt.multiitem.technological:30503>], [<liquid:molten.solderingalloy>*144], [null], [<appliedenergistics2:item.ItemViewCell>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 300, [10000], [<GTaddition:Item-27>*3, <gregtech:gt.multiitem.technological:30306>], [<liquid:molten.electrum>*288], [null], [<appliedenergistics2:item.ItemMultiMaterial:25>*3]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 580, [10000], [<GTaddition:Item-27>*4, <gregtech:gt.multiitem.technological:30501>], [<liquid:molten.platinum>*432], [null], [<appliedenergistics2:item.ItemMultiMaterial:28>*2]);
 
+recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.1k>);
 
+recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.4k>);
 
+recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.16k>);
 
+recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.64k>);
 
+recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>);
 
+recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>);
 
+recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>);
 
+recipes.remove(<appliedenergistics2:tile.BlockSecurity>);
+
+recipes.remove(<appliedenergistics2:item.ItemCrystalSeed>);
+
+recipes.remove(<appliedenergistics2:item.ItemCrystalSeed:600>);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 320, [10000], [<appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:39>], [<liquid:molten.solderingalloy>*144], [null], [<appliedenergistics2:item.ItemBasicStorageCell.1k>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 770, [10000], [<appliedenergistics2:item.ItemMultiMaterial:36>, <appliedenergistics2:item.ItemMultiMaterial:39>], [<liquid:molten.solderingalloy>*288], [null], [<appliedenergistics2:item.ItemBasicStorageCell.4k>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 770, [10000], [<appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:item.ItemMultiMaterial:39>], [<liquid:molten.solderingalloy>*288], [null], [<appliedenergistics2:item.ItemBasicStorageCell.16k>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 1580, [10000], [<appliedenergistics2:item.ItemMultiMaterial:38>, <appliedenergistics2:item.ItemMultiMaterial:39>], [<liquid:molten.solderingalloy>*864], [null], [<appliedenergistics2:item.ItemBasicStorageCell.64k>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 460, [10000], [<appliedenergistics2:item.ItemMultiMaterial:32>, <appliedenergistics2:item.ItemMultiMaterial:39>], [<liquid:molten.solderingalloy>*144], [null], [<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 775, [10000], [<appliedenergistics2:item.ItemMultiMaterial:33>, <appliedenergistics2:item.ItemMultiMaterial:39>], [<liquid:molten.solderingalloy>*288], [null], [<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 1580, [10000], [<appliedenergistics2:item.ItemMultiMaterial:34>, <appliedenergistics2:item.ItemMultiMaterial:39>], [<liquid:molten.solderingalloy>*864], [null], [<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 1500, [10000], [<appliedenergistics2:tile.BlockChest>, <appliedenergistics2:item.ItemMultiMaterial:38>], [<liquid:molten.solderingalloy>*1440], [null], [<appliedenergistics2:tile.BlockSecurity>]);
+
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:240>);
+
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:220>);
+
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:260>);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 125, [10000], [<gregtech:gt.multiitem.technological:12003>, <appliedenergistics2:item.ItemMultiMaterial:43>], [<liquid:molten.solderingalloy>*144], [null], [<appliedenergistics2:item.ItemMultiPart:260>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 125, [10000], [<gregtech:gt.multiitem.technological:12003>, <appliedenergistics2:item.ItemMultiMaterial:44>], [<liquid:molten.solderingalloy>*144], [null], [<appliedenergistics2:item.ItemMultiPart:240>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 380, [10000], [<gregtech:gt.multiitem.technological:12063>, <appliedenergistics2:item.ItemMultiPart:440>], [<liquid:molten.solderingalloy>*288], [null], [<appliedenergistics2:item.ItemMultiPart:220>]);
 
 
 
