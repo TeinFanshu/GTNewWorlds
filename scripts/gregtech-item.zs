@@ -264,11 +264,17 @@ MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 200, [10000], [<appli
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 250, [10000], [<appliedenergistics2:item.ItemMultiPart:36>*8, <gregtech:gt.meta.foil:880>*4],  [<liquid:molten.lumium>*144], [null], [<appliedenergistics2:item.ItemMultiPart:56>*12]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 750, [10000], [<appliedenergistics2:item.ItemMultiPart:140>*2, <appliedenergistics2:item.ItemMultiMaterial:8>*6], [<appliedenergistics2:item.ItemMultiPart:76>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 20, [10000], [<appliedenergistics2:item.ItemMultiPart:16>, <IC2:itemPartCarbonFibre>], [<appliedenergistics2:item.ItemMultiPart:36>]);
+
+recipes.remove(<appliedenergistics2:tile.BlockEnergyCell>);
+
+recipes.remove(<appliedenergistics2:tile.BlockDenseEnergyCell>);
 
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:36>);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 20, [10000], [<gregtech:gt.multitileentity:29616>*4, <appliedenergistics2:item.ItemMultiPart:56>*4], [<appliedenergistics2:item.ItemMultiPart:36>]);
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:120>);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 750, [10000], [<gregtech:gt.multitileentity:29616>*4, <appliedenergistics2:item.ItemMultiPart:56>*4], [<appliedenergistics2:item.ItemMultiPart:76>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 2000, [10000], [<appliedenergistics2:tile.BlockIOPort>*2, <gregtech:gt.multiitem.technological:30501>], [<liquid:molten.solderingalloy>*432], [null], [<appliedenergistics2:tile.BlockSpatialIOPort>]);
 
@@ -282,6 +288,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 200, [10000], [<gregt
 
 MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 512, 100, [10000], [<gregtech:gt.meta.bolt:220>, <gregtech:gt.multiitem.technological:10007>*0], [<appliedenergistics2:item.ItemMultiPart:120>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 200, [10000], [<appliedenergistics2:item.ItemMultiMaterial:39>, <gregtech:gt.multiitem.technological:30503>], [<liquid:molten.solderingalloy>*144], [null], [<appliedenergistics2:item.ItemViewCell>]);
 
 
 
