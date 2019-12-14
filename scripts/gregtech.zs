@@ -1947,13 +1947,29 @@ recipes.addShaped(<gregtech:gt.multitileentity:10034>,
 [<ore:wireGt08AnnealedCopper>, <GTaddition:Block-1>, <ore:wireGt08AnnealedCopper>], 
 [<ore:wireGt08AnnealedCopper>, <ore:craftingToolWrench>, <ore:wireGt08AnnealedCopper>]]);
 
+recipes.remove(<gregtech:gt.multitileentity:20162>); 
 
+recipes.remove(<gregtech:gt.multitileentity:20163>); 
 
+recipes.remove(<gregtech:gt.multitileentity:20164>); 
 
+recipes.addShaped(<gregtech:gt.multitileentity:20162>, [[<ore:craftingToolWrench>, <ore:pipeSmallStainlessSteel>, <ore:craftingToolHardHammer>], [<gregtech:gt.multiitem.technological:12022>, <GTaddition:Block-2>, <gregtech:gt.multiitem.technological:12022>], [<ore:gt:circuit2>, <ore:pipeSmallStainlessSteel>, <ore:cableGt01AnyCopper>]]);
 
+recipes.addShaped(<gregtech:gt.multitileentity:20163>, [[<ore:craftingToolWrench>, <ore:pipeMediumStainlessSteel>, <ore:craftingToolHardHammer>], [<gregtech:gt.multiitem.technological:12023>, <GTaddition:Block-3>, <gregtech:gt.multiitem.technological:12023>], [<ore:gt:circuit3>, <ore:pipeMediumStainlessSteel>, <ore:cableGt01Gold>]]);
 
+recipes.addShaped(<gregtech:gt.multitileentity:20164>, [[<ore:craftingToolWrench>, <ore:pipeLargeStainlessSteel>, <ore:craftingToolHardHammer>], [<gregtech:gt.multiitem.technological:12024>, <GTaddition:Block-1>, <gregtech:gt.multiitem.technological:12024>], [<ore:gt:circuit4>, <ore:pipeLargeStainlessSteel>, <ore:cableGt01Aluminium>]]);
 
+recipes.remove(<gregtech:gt.multitileentity:20262>); 
 
+recipes.remove(<gregtech:gt.multitileentity:20263>); 
+
+recipes.remove(<gregtech:gt.multitileentity:20264>); 
+
+recipes.addShaped(<gregtech:gt.multitileentity:20262>, [[<gregtech:gt.multiitem.technological:12062>, <ore:pipeSmallStainlessSteel>], [<ore:craftingToolWrench>, <ore:gt:circuit2>], [<GTaddition:Block-2>, <ore:cableGt01AnyCopper>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:20263>, [[<gregtech:gt.multiitem.technological:12063>, <ore:pipeMediumStainlessSteel>], [<ore:craftingToolWrench>, <ore:gt:circuit3>], [<GTaddition:Block-3>, <ore:cableGt01Gold>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:20264>, [[<gregtech:gt.multiitem.technological:12064>, <ore:pipeLargeStainlessSteel>], [<ore:craftingToolWrench>, <ore:gt:circuit4>], [<GTaddition:Block-1>, <ore:cableGt01Aluminium>]]);
 
 
 print("Initialized gregtech");

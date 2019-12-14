@@ -122,11 +122,11 @@ MTUtilsGT.addCustomRecipe("gt.recipe.crystallisationcrucible", false, 64, 60000,
 
 MTUtilsGT.addCustomRecipe("gt.recipe.autoclave", false, 0, 3000, [10000], [<GTaddition:Item-7>, <gregapi:gt.integrated_circuit>*0], [<liquid:steam>*102400], [null], [<GTaddition:Item-8>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 96, [10000, 7000], [<GTaddition:Item-8>], [<liquid:lubricant>*432], [null], [<GTaddition:Item-9>, <GTaddition:Item-2>]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 96, [10000, 7000], [<GTaddition:Item-8>], [<liquid:lubricant>*432], [null], [<GTaddition:Item-9>*2, <GTaddition:Item-2>]); 
 
-MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 144, [10000, 7000], [<GTaddition:Item-8>], [<liquid:water>*768], [null], [<GTaddition:Item-9>, <GTaddition:Item-2>]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 144, [10000, 7000], [<GTaddition:Item-8>], [<liquid:water>*768], [null], [<GTaddition:Item-9>*2, <GTaddition:Item-2>]); 
 
-MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 196, [10000, 7000], [<GTaddition:Item-8>], [<liquid:ic2distilledwater>*576], [null], [<GTaddition:Item-9>, <GTaddition:Item-2>]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 196, [10000, 7000], [<GTaddition:Item-8>], [<liquid:ic2distilledwater>*576], [null], [<GTaddition:Item-9>*2, <GTaddition:Item-2>]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 800, [10000], [<GTaddition:Item-8>], [<liquid:nitrogen>*3000], [null], [<GTaddition:Item-9>*4, <GTaddition:Item-2>*2]);
 
@@ -308,7 +308,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.cryomixer", false, 16, 800, [10000], [<GTad
 
 MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 16, 200, [10000], [<gregtech:gt.meta.plate:140>, <GTaddition:Item-31>], [<gregtech:gt.multiitem.technological:30000>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 16, 200, [10000], [<gregtech:gt.meta.plate:140>, <GTaddition:Item-50>], [<gregtech:gt.multiitem.technological:30000>*2]);
+MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 16, 200, [10000], [<gregtech:gt.meta.plate:140>, <GTaddition:Item-50>], [<gregtech:gt.multiitem.technological:30000>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 400, [10000], [<GTaddition:Item-19>*2],  [<liquid:ethylene>*100, <liquid:oxygen>*2000], [null], [<GTaddition:Item-31>]);
 
@@ -370,9 +370,11 @@ MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 400, [10000], [<GTadditi
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 120, 200, [10000], [<GTaddition:Item-49>], [<liquid:liquidoxygen>*3000], [null], [<GTaddition:Item-48>]); 
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 240, 400, [10000], [<GTaddition:Item-31>, <gregtech:gt.meta.foil:8640>*4], [<liquid:sulfuricacid>*250], [null], [<GTaddition:Item-50>]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 240, 600, [10000], [<GTaddition:Item-31>, <gregtech:gt.meta.foil:8640>*4], [<liquid:sulfuricacid>*250], [null], [<GTaddition:Item-50>]); 
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 240, 200, [10000], [<GTaddition:Item-48>, <gregtech:gt.meta.foil:8640>*4], [<liquid:sulfuricacid>*250], [null], [<GTaddition:Item-50>*4]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 240, 600, [10000], [<GTaddition:Item-22>, <gregtech:gt.meta.foil:8640>*4], [<liquid:sulfuricacid>*250], [null], [<GTaddition:Item-50>*2]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 240, 300, [10000], [<GTaddition:Item-48>, <gregtech:gt.meta.foil:8640>*4], [<liquid:sulfuricacid>*250], [null], [<GTaddition:Item-50>*4]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, [10000], [<IC2:itemUran238>*6, <IC2:itemUran235small>*3], [<liquid:ic2coolant>*1250], [null], [<IC2:itemUran>]); 
 
