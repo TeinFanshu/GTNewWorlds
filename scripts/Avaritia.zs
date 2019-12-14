@@ -28,13 +28,6 @@ recipes.addShaped(<Avaritia:Dire_Crafting>,
  
 recipes.remove(<Avaritia:Crystal_Matrix>);
 
-recipes.addShaped(<Avaritia:Crystal_Matrix>,
-   [[<Avaritia:Resource:1>,              <Avaritia:Resource:1>,<Avaritia:Resource:1>],
-    [<Avaritia:Resource:1>,<gregtech:gt.multitileentity:18200>,<Avaritia:Resource:1>],
-	[<Avaritia:Resource:1>,              <Avaritia:Resource:1>,<Avaritia:Resource:1>]]
- );
-
-
 recipes.addShaped(<Avaritia:Resource_Block>,
    [[<Avaritia:Resource:4>,<Avaritia:Resource:4>,<Avaritia:Resource:4>],
     [<Avaritia:Resource:4>,<Avaritia:Resource:4>,<Avaritia:Resource:4>],
