@@ -414,7 +414,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 100, [10000], [<minecra
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, [10000], [<IC2:itemRecipePart:12>, <IC2:itemRecipePart:9>*4],  [<liquid:molten.tungstensteel>*432], [null], [<IC2:itemwcarbonrotor>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 256, 400, [10000], [<minecraft:ender_eye>], [<liquid:radon>*150], [null], [<GTaddition:Item-10>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 204800, [10000], [<minecraft:ender_eye>], [<liquid:radon>*150], [null], [<GTaddition:Item-10>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 40000, [10000], [<HardcoreEnderExpansion:end_powder>], [<liquid:radon>*20], [null], [<minecraft:ender_pearl>*3]);
 
