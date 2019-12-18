@@ -100,8 +100,6 @@ MTUtilsGT.addCustomRecipe("gt.recipe.electrolyzer", false, 16, 100, [10000], [<g
 
 MTUtilsGT.addCustomRecipe("gt.recipe.electrolyzer", false, 48, 500, [10000], [<gregapi:gt.integrated_circuit>*0, <gregtech:gt.meta.storage.dust:8201>*1], [<gregtech:gt.meta.dust:60>*9]); 
 
-MTUtilsGT.addCustomRecipe("gt.recipe.compressor", false, 16, 50000, [10000], [<gregtech:gt.meta.plateGem:8423>*3], [<GTaddition:Item-3>]);
-
 MTUtilsGT.addCustomRecipe("gt.recipe.sluice", false, 16, 800, [8000, 10000], [<gregtech:gt.meta.dust:8346>], [<liquid:water>*900], [<liquid:sluicejuice>*900], [<GTaddition:Item-4>, <gregtech:gt.meta.dust:8102>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.magneticseparator", false, 16, 400, [6000,10000], [<GTaddition:Item-4>], [<GTaddition:Item-5>, <gregtech:gt.meta.dustSmall:8102>*2]);
@@ -439,7 +437,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 160, [10000], [<gregtech
 MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 160, [10000], [<gregtech:gt.meta.dust:8019>], [<liquid:ammonia>*800, <liquid:carbondioxide>*100], [null], [<IC2:itemFertilizer>*8]); 
 
 /////Avaritia/////
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 2048, 3000, [10000], [<Avaritia:Resource:1>*16,<gregtech:gt.multiitem.technological:30502>*5], [<liquid:radon>*5000], [null], [<Avaritia:Crystal_Matrix>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 6000, [10000], [<Avaritia:Resource:1>*8,<gregtech:gt.multiitem.technological:30502>*4], [<liquid:radon>*2000], [null], [<Avaritia:Crystal_Matrix>]);
 //////////////////
 
 
