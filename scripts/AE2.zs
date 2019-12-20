@@ -383,7 +383,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, [10000], [<gregt
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 200, [10000], [<appliedenergistics2:item.ItemMultiPart:140>*2, <appliedenergistics2:item.ItemMultiMaterial:8>*6],  [<liquid:molten.redalloy>*72], [null], [<appliedenergistics2:item.ItemMultiPart:16>*4]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 200, [10000], [<appliedenergistics2:item.ItemMultiPart:36>*8, <gregtech:gt.meta.foil:880>*4],  [<liquid:molten.lumium>*144], [null], [<appliedenergistics2:item.ItemMultiPart:56>*12]);
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 200, [10000], [<appliedenergistics2:item.ItemMultiPart:36>*8, <gregtech:gt.meta.foil:780>*4],  [<liquid:molten.lumium>*144], [null], [<appliedenergistics2:item.ItemMultiPart:56>*12]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 20, [10000], [<appliedenergistics2:item.ItemMultiPart:16>, <IC2:itemPartCarbonFibre>], [<appliedenergistics2:item.ItemMultiPart:36>]);
 
@@ -394,8 +394,6 @@ recipes.remove(<appliedenergistics2:tile.BlockDenseEnergyCell>);
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:36>);
 
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:120>);
-
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 100, [10000], [<gregtech:gt.multitileentity:29616>*4, <appliedenergistics2:item.ItemMultiPart:56>*4], [<appliedenergistics2:item.ItemMultiPart:36>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 600, [10000], [<gregtech:gt.multitileentity:29616>*4, <appliedenergistics2:item.ItemMultiPart:56>*4], [<appliedenergistics2:item.ItemMultiPart:76>]);
 
