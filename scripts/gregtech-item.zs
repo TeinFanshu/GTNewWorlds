@@ -436,6 +436,18 @@ MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 160, [10000], [<gregtech
 
 MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 160, [10000], [<gregtech:gt.meta.dust:8019>], [<liquid:ammonia>*800, <liquid:carbondioxide>*100], [null], [<IC2:itemFertilizer>*8]); 
 
+MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 140, [10000], [<gregtech:gt.meta.dust:8208>], [<liquid:ammonia>*900, <liquid:carbondioxide>*400], [null], [<Forestry:fertilizerCompound>*12]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 140, [10000], [<gregtech:gt.meta.dust:8208>], [<liquid:ammonia>*900, <liquid:carbondioxide>*400], [null], [<IC2:itemFertilizer>*12]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 640, [10000], [<gregtech:gt.meta.dust:8201>*4, <gregtech:gt.meta.gem:8209>*2], [<liquid:ammonia>*1200, <liquid:carbondioxide>*100], [null], [<Forestry:fertilizerCompound>*64]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 640, [10000], [<gregtech:gt.meta.dust:8201>*4, <gregtech:gt.meta.gem:8209>*2], [<liquid:ammonia>*1200, <liquid:carbondioxide>*100], [null], [<IC2:itemFertilizer>*64]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 280, [10000], [<gregtech:gt.meta.dust:8205>], [<liquid:ammonia>*1600, <liquid:carbondioxide>*400], [null], [<Forestry:fertilizerCompound>*16]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 280, [10000], [<gregtech:gt.meta.dust:8205>], [<liquid:ammonia>*1600, <liquid:carbondioxide>*400], [null], [<IC2:itemFertilizer>*16]); 
+
 /////Avaritia/////
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 6000, [10000], [<Avaritia:Resource:1>*8,<gregtech:gt.multiitem.technological:30502>*4], [<liquid:radon>*2000], [null], [<Avaritia:Crystal_Matrix>]);
 //////////////////
