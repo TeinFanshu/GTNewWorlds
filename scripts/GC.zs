@@ -528,7 +528,11 @@ MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 4096, 800, [10000],
  
 MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 8192, 800, [10000], [<GalaxySpace:item.SchematicTier5>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-73>]); 
  
-
+MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 8192, 1000, [10000], [<GalaxySpace:item.SchematicTier6>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-74>]); 
+ 
+MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 8192, 1200, [10000], [<GalaxySpace:item.SchematicTier7>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-75>]); 
+ 
+MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 8192, 1400, [10000], [<GalaxySpace:item.SchematicTier8>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-76>]); 
  
  
  

@@ -16,6 +16,8 @@ recipes.remove(<gregtech:gt.meta.plateGemTiny:320>);
 
 recipes.remove(<gregtech:gt.meta.plateGem:320>);
 
+recipes.remove(<gregtech:gt.multitileentity:18044>);
+
 recipes.remove(<gregtech:gt.meta.plateGemTiny:8298>);
 
 recipes.remove(<gregtech:gt.multitileentity:18104>);
@@ -1977,9 +1979,119 @@ recipes.remove(<gregtech:gt.multitileentity:20343>);
 
 recipes.remove(<gregtech:gt.multitileentity:20344>); 
 
-recipes.addShaped(<gregtech:gt.multitileentity:20342>, [[<ore:cableGt01AnyCopper>, <gregtech:gt.multiitem.technological:12082>, <ore:cableGt01AnyCopper>], [<gregtech:gt.multiitem.technological:12082>, <ore:craftingToolWrench>, <gregtech:gt.multiitem.technological:12082>], [<ore:gt:circuit2>, <GTaddition:Block-2>, <ore:gt:circuit2>]]);
+recipes.addShaped(<gregtech:gt.multitileentity:20342>, 
+[[<ore:cableGt01AnyCopper>, <gregtech:gt.multiitem.technological:12082>, <ore:cableGt01AnyCopper>], 
+[<gregtech:gt.multiitem.technological:12082>, <ore:craftingToolWrench>, <gregtech:gt.multiitem.technological:12082>], 
+[<ore:gt:circuit2>, <GTaddition:Block-2>, <ore:gt:circuit2>]]);
 
-recipes.addShaped(<gregtech:gt.multitileentity:20343>, [[<ore:cableGt01Gold>, <gregtech:gt.multiitem.technological:12083>, <ore:cableGt01Gold>], [<gregtech:gt.multiitem.technological:12083>, <ore:craftingToolWrench>, <gregtech:gt.multiitem.technological:12083>], [<ore:gt:circuit3>, <GTaddition:Block-3>, <ore:gt:circuit3>]]);
+recipes.addShaped(<gregtech:gt.multitileentity:20343>, 
+[[<ore:cableGt01Gold>, <gregtech:gt.multiitem.technological:12083>, <ore:cableGt01Gold>], 
+[<gregtech:gt.multiitem.technological:12083>, <ore:craftingToolWrench>, <gregtech:gt.multiitem.technological:12083>], 
+[<ore:gt:circuit3>, <GTaddition:Block-3>, <ore:gt:circuit3>]]);
 
-recipes.addShaped(<gregtech:gt.multitileentity:20344>, [[<ore:cableGt01Aluminium>, <gregtech:gt.multiitem.technological:12084>, <ore:cableGt01Aluminium>], [<gregtech:gt.multiitem.technological:12084>, <ore:craftingToolWrench>, <gregtech:gt.multiitem.technological:12084>], [<ore:gt:circuit4>, <GTaddition:Block-1>, <ore:gt:circuit4>]]);
+recipes.addShaped(<gregtech:gt.multitileentity:20344>, 
+[[<ore:cableGt01Aluminium>, <gregtech:gt.multiitem.technological:12084>, <ore:cableGt01Aluminium>], [<gregtech:gt.multiitem.technological:12084>, <ore:craftingToolWrench>, <gregtech:gt.multiitem.technological:12084>], 
+[<ore:gt:circuit4>, <GTaddition:Block-1>, <ore:gt:circuit4>]]);
+
+recipes.remove(<gregtech:gt.multitileentity:10042>); 
+
+recipes.remove(<gregtech:gt.multitileentity:10043>); 
+
+recipes.remove(<gregtech:gt.multitileentity:10044>); 
+
+recipes.addShaped(<gregtech:gt.multitileentity:10042>, 
+[[<ore:wireGt01AnyCopper>, <ore:plateDoubleAnyIron>, <ore:wireGt01AnyCopper>], 
+[<ore:wireGt04AnyCopper>, <GTaddition:Block-2>, <ore:craftingToolWireCutter>], 
+[<ore:wireGt01AnyCopper>, <ore:plateDoubleAnyIron>, <ore:wireGt01AnyCopper>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:10043>, 
+[[<ore:wireGt01AnnealedCopper>, <ore:plateDoubleAnyIron>, <ore:wireGt01AnnealedCopper>], 
+[<ore:wireGt04AnnealedCopper>, <GTaddition:Block-3>, <ore:craftingToolWireCutter>], 
+[<ore:wireGt01AnnealedCopper>, <ore:plateDoubleAnyIron>, <ore:wireGt01AnnealedCopper>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:10044>, 
+[[<ore:wireGt01AnnealedCopper>, <ore:plateDoubleAnyIron>, <ore:wireGt01AnnealedCopper>], 
+[<ore:wireGt04AnnealedCopper>, <GTaddition:Block-1>, <ore:craftingToolWireCutter>], 
+[<ore:wireGt01AnnealedCopper>, <ore:plateDoubleAnyIron>, <ore:wireGt01AnnealedCopper>]]);
+
+recipes.remove(<gregtech:gt.multitileentity:10002>); 
+
+recipes.remove(<gregtech:gt.multitileentity:10003>); 
+
+recipes.remove(<gregtech:gt.multitileentity:10004>); 
+
+recipes.addShaped(<gregtech:gt.multitileentity:10002>, 
+[[<ore:screwAluminium>, <ore:wireGt02Constantan>, <ore:screwAluminium>], 
+[<ore:wireGt02Constantan>, <GTaddition:Block-2>, <ore:wireGt02Constantan>], 
+[<ore:screwAluminium>, <ore:wireGt02Constantan>, <ore:craftingToolScrewdriver>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:10003>, 
+[[<ore:screwStainlessSteel>, <ore:wireGt04Kanthal>, <ore:screwStainlessSteel>], 
+[<ore:wireGt04Kanthal>, <GTaddition:Block-3>, <ore:wireGt04Kanthal>], 
+[<ore:screwStainlessSteel>, <ore:wireGt04Kanthal>, <ore:craftingToolScrewdriver>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:10004>, 
+[[<ore:screwChromium>, <ore:wireGt08Nichrome>, <ore:screwChromium>], 
+[<ore:wireGt08Nichrome>, <GTaddition:Block-1>, <ore:wireGt08Nichrome>], 
+[<ore:screwChromium>, <ore:wireGt08Nichrome>, <ore:craftingToolScrewdriver>]]);
+
+recipes.remove(<gregtech:gt.multitileentity:20362>); 
+
+recipes.remove(<gregtech:gt.multitileentity:20363>); 
+
+recipes.remove(<gregtech:gt.multitileentity:20364>); 
+
+recipes.addShaped(<gregtech:gt.multitileentity:20362>, 
+[[<gregtech:gt.meta.stickLong:130>, <gregtech:gt.meta.gearGt:130>, <gregtech:gt.meta.stickLong:130>], [<gregtech:gt.multiitem.technological:12002>, <GTaddition:Block-2>, <gregtech:gt.multiitem.technological:12002>], [<gregtech:gt.meta.stickLong:130>, <gregtech:gt.multiitem.technological:30302>, <gregtech:gt.meta.stickLong:130>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:20363>, 
+[[<ore:stickLongStainlessSteel>, <ore:craftingToolHardHammer>, <ore:stickLongStainlessSteel>], 
+[<gregtech:gt.multiitem.technological:12003>, <GTaddition:Block-3>, <gregtech:gt.multiitem.technological:12003>], [<ore:stickLongStainlessSteel>, <ore:craftingToolWrench>, <ore:stickLongStainlessSteel>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:20364>, 
+[[<ore:stickLongChromium>, <ore:craftingToolHardHammer>, <ore:stickLongChromium>], 
+[<gregtech:gt.multiitem.technological:12004>, <GTaddition:Block-1>, <gregtech:gt.multiitem.technological:12004>], 
+[<ore:stickLongChromium>, <ore:craftingToolWrench>, <ore:stickLongChromium>]]);
+
+recipes.remove(<gregtech:gt.multitileentity:20282>); 
+
+recipes.remove(<gregtech:gt.multitileentity:20283>); 
+
+recipes.remove(<gregtech:gt.multitileentity:20284>); 
+
+recipes.addShaped(<gregtech:gt.multitileentity:20282>, 
+[[<ore:gt:circuit2>, <ore:plateLumium>, <ore:gt:circuit2>], 
+[<ore:craftingToolWrench>, <gregtech:gt.multiitem.technological:12042>, <ore:craftingToolHardHammer>], [<ore:cableGt01AnyCopper>, <GTaddition:Block-2>, <ore:cableGt01AnyCopper>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:20283>, 
+[[<ore:gt:circuit3>, <ore:plateLumium>, <ore:gt:circuit3>], 
+[<ore:craftingToolWrench>, <gregtech:gt.multiitem.technological:12043>, <ore:craftingToolHardHammer>], [<ore:cableGt01Gold>, <GTaddition:Block-3>, <ore:cableGt01Gold>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:20284>, 
+[[<ore:gt:circuit4>, <ore:plateLumium>, <ore:gt:circuit4>], 
+[<ore:craftingToolWrench>, <gregtech:gt.multiitem.technological:12044>, <ore:craftingToolHardHammer>], [<ore:cableGt01Aluminium>, <GTaddition:Block-1>, <ore:cableGt01Aluminium>]]);
+
+recipes.remove(<gregtech:gt.multitileentity:20572>); 
+
+recipes.remove(<gregtech:gt.multitileentity:20573>); 
+
+recipes.remove(<gregtech:gt.multitileentity:20574>); 
+
+recipes.addShaped(<gregtech:gt.multitileentity:20572>, [[<ore:plateDoubleStainlessSteel>, <GTaddition:Block-2>, <ore:plateDoubleStainlessSteel>], [<ore:plateDoubleStainlessSteel>, <ore:rotorStainlessSteel>, <ore:plateDoubleStainlessSteel>], [<ore:craftingToolHardHammer>, <ore:plateDoubleSilicon>, <ore:craftingToolWrench>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:20573>, [[<ore:plateTripleStainlessSteel>, <GTaddition:Block-3>, <ore:plateTripleStainlessSteel>], [<ore:plateTripleStainlessSteel>, <ore:rotorStainlessSteel>, <ore:plateTripleStainlessSteel>], [<ore:craftingToolHardHammer>, <ore:plateTripleSilicon>, <ore:craftingToolWrench>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:20574>, [[<ore:plateQuadrupleStainlessSteel>, <GTaddition:Block-1>, <ore:plateQuadrupleStainlessSteel>], [<ore:plateQuadrupleStainlessSteel>, <ore:rotorStainlessSteel>, <ore:plateQuadrupleStainlessSteel>], [<ore:craftingToolHardHammer>, <ore:plateQuadrupleSilicon>, <ore:craftingToolWrench>]]);
+
+recipes.remove(<gregtech:gt.multitileentity:10082>); 
+
+recipes.remove(<gregtech:gt.multitileentity:10083>); 
+
+recipes.remove(<gregtech:gt.multitileentity:10084>); 
+
+recipes.addShaped(<gregtech:gt.multitileentity:10082>, [[<ore:wireGt01AnyCopper>, <ore:cableGt01AnyCopper>, <ore:wireGt01AnyCopper>], [<ore:wireGt01AnyCopper>, <ore:cableGt01AnyCopper>, <ore:wireGt01AnyCopper>], [<ore:gt:circuit2>, <GTaddition:Block-2>, <ore:gt:circuit2>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:10083>, [[<ore:wireGt01Gold>, <ore:cableGt01Gold>, <ore:wireGt01Gold>], [<ore:wireGt01Gold>, <ore:cableGt01Gold>, <ore:wireGt01Gold>], [<ore:gt:circuit3>, <GTaddition:Block-3>, <ore:gt:circuit3>]]);
+
+recipes.addShaped(<gregtech:gt.multitileentity:10084>, [[<ore:wireGt01Aluminium>, <ore:cableGt01Aluminium>, <ore:wireGt01Aluminium>], [<ore:wireGt01Aluminium>, <ore:cableGt01Aluminium>, <ore:wireGt01Aluminium>], [<ore:gt:circuit4>, <GTaddition:Block-1>, <ore:gt:circuit4>]]);
 print("Initialized gregtech");

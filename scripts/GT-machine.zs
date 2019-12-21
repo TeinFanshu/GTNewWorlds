@@ -46,7 +46,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 128, 200, [10000], [<gregte
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 256, 200, [10000], [<gregtech:gt.meta.machine.double:220>, <gregtech:gt.multitileentity:28923>*8, <GTaddition:Item-14>*8], [<liquid:molten.solderingalloy>*864], [null], [<GTaddition:Block-1>]);
 
-///BigMachines///
+///LargeMachines///
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 100, [10000], [<gregtech:gt.multitileentity:28903>*8, <gregtech:gt.meta.stickLong:8635>*2], [<liquid:molten.solderingalloy>*576], [null], [<gregtech:gt.multitileentity:18042>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 100, [10000], [<gregtech:gt.multitileentity:28403>*8, <gregtech:gt.meta.stickLong:8635>*2], [<liquid:molten.solderingalloy>*576], [null], [<gregtech:gt.multitileentity:18040>]);

@@ -30,15 +30,15 @@ MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 100, [10000], [<gregtec
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 100, [10000], [<gregtech:gt.meta.plate:8796>*4, <GTaddition:Item-17>*5, <gregtech:gt.meta.wireFine:9175>*24, <gregtech:gt.multiitem.technological:29991>*4, null], [<liquid:molten.solderingalloy>*288], [null], [<GTaddition:Item-16>]);
 ///parts///
 
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 800, [10000], [<gregtech:gt.multitileentity:28401>*4, <gregtech:gt.multitileentity:28666>*2, <gregtech:gt.meta.stick:8646>, <gregtech:gt.meta.stickLong:130>, <gregtech:gt.meta.plateCurved:130>, <gregtech:gt.meta.screw:130>*2], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multiitem.technological:12002>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 800, [10000], [<gregtech:gt.multitileentity:28401>*4, <gregtech:gt.multitileentity:28366>*2, <gregtech:gt.meta.stick:8646>, <gregtech:gt.meta.stickLong:130>, <gregtech:gt.meta.plateCurved:130>, <gregtech:gt.meta.screw:130>*2], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multiitem.technological:12002>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 64, 600, [10000], [<gregtech:gt.multitileentity:28603>*4, <gregtech:gt.multitileentity:28769>*2, <gregtech:gt.meta.stickLong:8646>, <gregtech:gt.meta.stickLong:8636>, <gregtech:gt.meta.plateCurved:8636>, <gregtech:gt.meta.screw:8636>*2], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multiitem.technological:12003>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 64, 600, [10000], [<gregtech:gt.multitileentity:28403>*4, <gregtech:gt.multitileentity:28716>*2, <gregtech:gt.meta.stickLong:8646>, <gregtech:gt.meta.stickLong:8636>, <gregtech:gt.meta.plateCurved:8636>, <gregtech:gt.meta.screw:8636>*2], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multiitem.technological:12003>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 256, 400, [10000], [<gregtech:gt.multitileentity:29653>*4, <gregtech:gt.multitileentity:29019>*2, <gregtech:gt.meta.stick:8647>, <gregtech:gt.meta.stickLong:240>, <gregtech:gt.meta.plateCurved:240>, <gregtech:gt.meta.screw:240>*2], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multiitem.technological:12004>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 256, 400, [10000], [<gregtech:gt.multitileentity:28407>*4, <gregtech:gt.multitileentity:29016>*2, <gregtech:gt.meta.stick:8647>, <gregtech:gt.meta.stickLong:240>, <gregtech:gt.meta.plateCurved:240>, <gregtech:gt.meta.screw:240>*2], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multiitem.technological:12004>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 400, [10000], [<gregtech:gt.multitileentity:29603>*4, <gregtech:gt.multitileentity:29019>*2, <GTaddition:Item-56>, <gregtech:gt.meta.stickLong:220>, <GTaddition:Item-14>*2, <gregtech:gt.meta.screw:220>*2], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multiitem.technological:12005>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 400, [10000], [<gregtech:gt.multitileentity:28411>*4, <gregtech:gt.multitileentity:29116>*2, <GTaddition:Item-56>, <gregtech:gt.meta.stickLong:220>, <GTaddition:Item-14>*2, <gregtech:gt.meta.screw:220>*2], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multiitem.technological:12005>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 1024, 200, [10000], [<gregtech:gt.multitileentity:28423>*4, <gregtech:gt.multitileentity:29601>*2, <GTaddition:Item-57>, <gregtech:gt.meta.stickLong:8793>, <gregtech:gt.meta.plateCurved:8793>*2, <gregtech:gt.meta.screw:8793>*2], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multiitem.technological:12006>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 1024, 400, [10000], [<gregtech:gt.multitileentity:28415>*4, <gregtech:gt.multitileentity:29666>*2, <GTaddition:Item-57>, <gregtech:gt.meta.stickLong:8793>, <gregtech:gt.meta.plateCurved:8793>*2, <gregtech:gt.meta.screw:8793>*2], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multiitem.technological:12006>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 128, 200, [10000], [<gregtech:gt.multiitem.technological:12002>*2, <gregtech:gt.meta.plate:130>*2, <gregtech:gt.meta.stick:130>*2, <gregtech:gt.meta.screw:130>*2, <gregtech:gt.meta.gearGtSmall:130>], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multiitem.technological:12062>]);
 
@@ -191,8 +191,11 @@ MTUtilsGT.addCustomRecipe("gt.recipe.mixer", false, 16, 600, [10000], [<minecraf
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 256, [10000], [<gregtech:gt.multiitem.technological:30306>*2, <gregtech:gt.meta.plate:9175>*4, <gregtech:gt.meta.screw:220>*16], [<liquid:molten.solderingalloy>*288], [null], [<gregtech:gt.multiitem.technological:32004>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.scannermolecular", false, 256, 400, [1000], [<gregtech:gt.meta.ingot:8798>, 
+MTUtilsGT.addCustomRecipe("gt.recipe.scannermolecular", false, 1, 204800, [1000], [<gregtech:gt.meta.ingot:8798>, 
 <gregtech:gt.multiitem.technological:32004>*0], [<GTaddition:Item-11>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.scannermolecular", false, 1, 2560000, [1000], [<minecraft:nether_star>, 
+<gregtech:gt.multiitem.technological:32004>*0], [<GTaddition:Item-3>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 600, [10000, 8500, 5000], [<gregtech:gt.meta.ingot:8798>*4, 
 <minecraft:tnt>*64, <GTaddition:Item-11>*0], [<gregtech:gt.meta.ingotHot:8798>, <gregtech:gt.meta.ingotHot:8798>, <gregtech:gt.meta.ingotHot:8798>*2]);
@@ -419,6 +422,8 @@ MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 40000, [10000], [<Hardc
 MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 50000, [10000], [<minecraft:skull>], [<liquid:radon>*30], [null], [<minecraft:skull:1>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 128000, [10000], [<gregtech:gt.meta.dust:8320>], [<liquid:radon>*288], [null], [<minecraft:nether_star>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.replicator", false, 1, 65536, [10000], [<GTaddition:Item-3>], [<liquid:neutralmatter>*18, <liquid:chargedmatter>*10], [null], [<minecraft:nether_star>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 200, [10000], [<GTaddition:Item-10>, <GTaddition:Item-28>], [<liquid:molten.solderingalloy>*288], [null], [<appliedenergistics2:item.ItemMultiMaterial:32>*4]);
 
