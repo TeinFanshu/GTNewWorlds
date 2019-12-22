@@ -126,6 +126,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftCore:item.spaceship>,
  [null,null,<GalacticraftCore:item.rocketFins>,<GalacticraftCore:item.heavyPlating>,<GalaxySpace:item.ModuleLander>,<GalacticraftCore:item.heavyPlating>,<GalacticraftCore:item.rocketFins>,null,null],
  [null,null,<GalacticraftCore:item.rocketFins>,<GalacticraftCore:item.heavyPlating>,<GalacticraftCore:item.heavyPlating>,<GalacticraftCore:item.heavyPlating>,<GalacticraftCore:item.rocketFins>,null,null],
  [null,null,<GalacticraftCore:item.rocketFins>,<GalacticraftCore:item.engine>,null,<GalacticraftCore:item.engine>,<GalacticraftCore:item.rocketFins>,null,null],
+ [null,null,null,null,null,null,null,null,null]]
  );
  
 recipes.remove(<GalacticraftCore:item.oxygenGear>);
@@ -149,9 +150,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.spaceshipTier2>,
  [null,null,null,<GalacticraftMars:item.null:3>,<GalacticraftMars:item.null:3>,<GalacticraftMars:item.null:3>,null,null,null],
  [null,null,null,<GalacticraftMars:item.null:3>,<GalacticraftMars:item.null:3>,<GalacticraftMars:item.null:3>,null,null,null],
  [null,null,null,<GalacticraftMars:item.null:3>,<IC2:blockAlloyGlass>,<GalacticraftMars:item.null:3>,null,null,null],
- [null,null,<GalacticraftCore:item.engine:1>,<GalacticraftMars:item.null:3>,<GalaxySpace:item.ModuleLander2>,<GalacticraftMars:item.null:3>,<GalacticraftCore:item.engine:1>,null,null],
  [null,null,<GalacticraftCore:item.engine:1>,<GalacticraftMars:item.null:3>,<GalacticraftMars:item.null:3>,<GalacticraftMars:item.null:3>,<GalacticraftCore:item.engine:1>,null,null],
+ [null,null,<GalacticraftCore:item.engine:1>,<GalacticraftMars:item.null:3>,null,<GalacticraftMars:item.null:3>,<GalacticraftCore:item.engine:1>,null,null],
  [null,null,<GalacticraftCore:item.rocketFins>,<GalacticraftMars:item.null:3>,<GalacticraftMars:item.null:3>,<GalacticraftMars:item.null:3>,<GalacticraftCore:item.rocketFins>,null,null],
+ [null,null,<GalacticraftCore:item.rocketFins>,<GalacticraftCore:item.engine>,null,<GalacticraftCore:item.engine>,<GalacticraftCore:item.rocketFins>,null,null],
+ [null,null,null,null,null,null,null,null,null]]
  );
 
 recipes.remove(<GalacticraftCore:tile.machine>);
@@ -194,7 +197,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.itemTier3Rocket>,
  [null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null],
  [null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,<IC2:blockAlloyGlass>,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null],
  [null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null],
- [null,null,<GalaxySpace:item.RocketParts:2>,<GalacticraftMars:item.itemBasicAsteroids>,<GalaxySpace:item.ModuleLander3>,<GalacticraftMars:item.itemBasicAsteroids>,<GalaxySpace:item.RocketParts:2>,null,null],
  [null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,null,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null],
  [null,null,<GalacticraftMars:item.itemBasicAsteroids:2>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids:2>,null,null],
  [null,null,<GalacticraftMars:item.itemBasicAsteroids:2>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids:2>,null,null],
