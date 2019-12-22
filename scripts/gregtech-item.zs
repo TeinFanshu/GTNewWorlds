@@ -120,6 +120,8 @@ MTUtilsGT.addCustomRecipe("gt.recipe.crystallisationcrucible", false, 64, 60000,
 
 MTUtilsGT.addCustomRecipe("gt.recipe.autoclave", false, 0, 3000, [10000], [<GTaddition:Item-7>, <gregapi:gt.integrated_circuit>*0], [<liquid:steam>*102400], [null], [<GTaddition:Item-8>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.autoclave", false, 0, 6000, [10000], [<minecraft:bone>*2, <gregtech:gt.meta.dust:460>], [<liquid:steam>*102400], [null], [<minecraft:skull>]);
+
 MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 96, [10000, 7000], [<GTaddition:Item-8>], [<liquid:lubricant>*432], [null], [<GTaddition:Item-9>*2, <GTaddition:Item-2>]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.cutter", false, 96, 144, [10000, 7000], [<GTaddition:Item-8>], [<liquid:water>*768], [null], [<GTaddition:Item-9>*2, <GTaddition:Item-2>]); 
@@ -194,8 +196,8 @@ MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 16, 256, [10000], [<gregtec
 MTUtilsGT.addCustomRecipe("gt.recipe.scannermolecular", false, 1, 204800, [1000], [<gregtech:gt.meta.ingot:8798>, 
 <gregtech:gt.multiitem.technological:32004>*0], [<GTaddition:Item-11>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.scannermolecular", false, 1, 2560000, [1000], [<minecraft:nether_star>, 
-<gregtech:gt.multiitem.technological:32004>*0], [<GTaddition:Item-3>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.scannermolecular", false, 1, 1280000, [1000], [<minecraft:nether_star>, 
+<gregtech:gt.multiitem.technological:32004>], [<GTaddition:Item-3>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 600, [10000, 8500, 5000], [<gregtech:gt.meta.ingot:8798>*4, 
 <minecraft:tnt>*64, <GTaddition:Item-11>*0], [<gregtech:gt.meta.ingotHot:8798>, <gregtech:gt.meta.ingotHot:8798>, <gregtech:gt.meta.ingotHot:8798>*2]);
@@ -216,8 +218,6 @@ MTUtilsGT.addCustomRecipe("gt.recipe.burnmixer", false, 16, 800, [10000], [<greg
 MTUtilsGT.addCustomRecipe("gt.recipe.freezer", false, 128, 100, [10000], [<GTaddition:Item-12>], [<GTaddition:Item-13>]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 200, [10000], [<GTaddition:Item-13>], [<liquid:lubricant>*288], [null], [<GTaddition:Item-14>]); 
-
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 1024, 1000, [10000], [<gregtech:gt.multitileentity:18202>, <gregtech:gt.multiitem.technological:12045>*2, <gregtech:gt.multiitem.technological:30306>*4, <gregtech:gt.meta.machine.dense:220>, <gregtech:gt.meta.gearGt:8635>*4, <gregtech:gt.meta.toolHeadDrill:8635>], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multitileentity:17999>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.bath", false, 0, 200, [10000], [<gregtech:gt.meta.plate:8218>],  [<liquid:latex>*288], [null], [<GTaddition:Item-19>]);
 
