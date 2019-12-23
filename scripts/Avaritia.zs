@@ -1,5 +1,5 @@
-
-print("Initializing Avaritia...");
+import mods.MTUtilsGT;
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 6000, [10000], [<Avaritia:Resource:1>*9,<gregtech:gt.multiitem.technological:30502>*4], [<liquid:radon>*2000], [null], [<Avaritia:Crystal_Matrix>]);
 
 recipes.remove(<Avaritia:Resource>);
 
@@ -61,5 +61,3 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Neutronium_Compressor>,
  [<gregtech:gt.multitileentity:18005>,<gregtech:gt.meta.screw:8800>,<gregtech:gt.meta.plateTriple:8800>,<gregtech:gt.meta.plateTriple:8800>,<gregtech:gt.meta.gearGt:8800>,<gregtech:gt.meta.plateTriple:8800>,<gregtech:gt.meta.plateTriple:8800>,<gregtech:gt.meta.screw:8800>,<gregtech:gt.multitileentity:18005>],
  [<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>]]
  );
- 
-print("Initialized Avaritia");
