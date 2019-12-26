@@ -1,5 +1,5 @@
 import mods.MTUtilsGT;
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 6000, [10000], [<Avaritia:Resource:1>*9,<gregtech:gt.multiitem.technological:30502>*4], [<liquid:radon>*2000], [null], [<Avaritia:Crystal_Matrix>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 6000, 0, [10000], [<Avaritia:Resource:1>*9,<gregtech:gt.multiitem.technological:30502>*4], [<liquid:radon>*2000], [null], [<Avaritia:Crystal_Matrix>]);
 
 recipes.remove(<Avaritia:Resource>);
 

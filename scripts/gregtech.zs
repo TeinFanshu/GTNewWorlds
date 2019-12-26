@@ -8,6 +8,10 @@ recipes.remove(<gregtech:gt.multitileentity:18005>);
 
 recipes.remove(<gregtech:gt.multitileentity:18008>);
 
+recipes.remove(<gregtech:gt.multitileentity:29400>);
+
+recipes.remove(<gregtech:gt.multitileentity:29416>);
+
 recipes.remove(<AFSU:ALC>);
 
 recipes.remove(<gregtech:gt.multitileentity:18009>);
