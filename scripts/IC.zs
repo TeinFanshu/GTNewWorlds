@@ -12,6 +12,8 @@ recipes.remove(<IC2:itemwcarbonrotor>);
 
 recipes.remove(<IC2:blockMachine:2>);
 
+recipes.remove(<IC2:blockAlloyGlass>);
+
 recipes.remove(<IC2:blockMachine2:11>);
 
 recipes.addShaped(<IC2:blockMachine2:11>,
