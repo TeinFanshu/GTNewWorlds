@@ -58,8 +58,6 @@ recipes.remove(<gregtech:gt.multitileentity:29217>);
 
 recipes.remove(<gregtech:gt.multitileentity:17998>);
 
-recipes.remove(<AFSU:AFSU>.withTag({energy: 0}));
-
 recipes.remove(<gregtech:gt.multitileentity:18010>);
 
 recipes.remove(<gregtech:gt.multitileentity:17999>);
@@ -1878,11 +1876,6 @@ recipes.addShaped(<gregtech:gt.multitileentity:10025>, [[<ore:screwTitanium>, <G
 recipes.addShaped(<gregtech:gt.multitileentity:10013>, [[<ore:plateTripleStainlessSteel>, <ore:craftingToolHardHammer>, <ore:plateTripleStainlessSteel>], [<ore:wireGt04AnnealedCopper>, <gregtech:gt.meta.stickLong:8647>, <ore:wireGt04AnnealedCopper>], [<ore:plateTripleStainlessSteel>, <ore:craftingToolWrench>, <ore:plateTripleStainlessSteel>]]);
 
 recipes.addShaped(<gregtech:gt.multitileentity:10015>, [[<ore:plateTripleTitanium>, <ore:craftingToolHardHammer>, <ore:plateTripleTitanium>], [<ore:wireGt16AnnealedCopper>, <GTaddition:Item-57>, <ore:wireGt16AnnealedCopper>], [<ore:plateTripleTitanium>, <ore:craftingToolWrench>, <ore:plateTripleTitanium>]]);
-
-recipes.addShaped(<AFSU:AFSU>.withTag({energy: 0}), 
-[[<gregtech:gt.multitileentity:29316>, <gregtech:gt.meta.plate:8635>, <gregtech:gt.multitileentity:29316>], 
- [<gregtech:gt.meta.plate:8635>, <gregtech:gt.meta.machine.quadruple:220>,  <gregtech:gt.meta.plate:8635>], 
- [<gregtech:gt.multiitem.technological:30503>,  <AFSU:ALC>, <gregtech:gt.multiitem.technological:30504>]]);
 
 recipes.remove(<gregtech:gt.multiitem.technological:12103>); 
 

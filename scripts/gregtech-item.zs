@@ -75,8 +75,6 @@ MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 64, 128, 0, [10000], [<greg
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 64, 128, 0, [10000], [<gregapi:gt.integrated_circuit:4>*0, <gregtech:gt.meta.plateDense:8802>*4], [<liquid:molten.solderingalloy>*432], [null], [<gregtech:gt.multitileentity:18032>]);
 ///other welding recipes///
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 1024, 560, 0, [10000], [<GTaddition:Item-27>, <gregtech:gt.multiitem.technological:30404>*2, <gregtech:gt.multiitem.technological:20009>*3, <gregtech:gt.meta.wireFine:780>*16, <gregtech:gt.meta.plateGemTiny:140>*32], [<liquid:molten.solderingalloy>*144], [null], [<AFSU:ALC>]);
-
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 100, 0, [10000], [<gregtech:gt.meta.plate:8796>*4, <GTaddition:Item-17>*5, <gregtech:gt.meta.wireFine:9175>*24, <gregtech:gt.multiitem.technological:29991>*4, null], [<liquid:molten.solderingalloy>*288], [null], [<GTaddition:Item-16>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 400, 0, [10000], [<GTaddition:Item-62>*4, <GTaddition:Item-59>*5, <GTaddition:Item-58>*3, <GTaddition:Item-26>*2, <gregtech:gt.meta.foil:8796>*32, <GTaddition:Item-16>], [<liquid:molten.tungstensteel>*288], [null], [<GTaddition:Item-18>]);

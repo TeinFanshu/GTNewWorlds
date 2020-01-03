@@ -518,19 +518,19 @@ MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 400, 0, [10
 
 MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 400, 0, [10000], [<gregapi:gt.integrated_circuit:5>*0, <GTaddition:Item-68>, <minecraft:tnt>*64], [<GalaxySpace:item.HeavyDutyPlate5>]); 
 ////////RocketTechnological//////// 
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 256, 600, 0, [10000], [<GalacticraftCore:item.heavyPlating>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-69>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 400, 0, [10000], [<GalacticraftCore:item.heavyPlating>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-69>]);
  
-MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 512, 1000, 0, [10000], [<GalacticraftCore:item.schematic:1>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-70>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 2048, 600, 0, [10000], [<GalacticraftCore:item.schematic:1>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-70>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 1024, 1000, 0, [10000], [<GalacticraftMars:item.schematic>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-71>]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 8192, 800, 0, [10000], [<GalacticraftMars:item.schematic>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-71>]); 
  
-MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 2048, 1000, 0, [10000], [<GalaxySpace:item.SchematicTier4>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-72>]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 8192, 1000, 0, [10000], [<GalaxySpace:item.SchematicTier4>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-72>]); 
  
-MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 4096, 1200, 0, [10000], [<GalaxySpace:item.SchematicTier5>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-73>]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 12288, 1200, 0, [10000], [<GalaxySpace:item.SchematicTier5>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-73>]); 
  
-MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 8192, 1400, 0,[10000], [<GalaxySpace:item.SchematicTier6>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-74>]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 12288, 1400, 0,[10000], [<GalaxySpace:item.SchematicTier6>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-74>]); 
  
-MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 12288, 1600, 0, [10000], [<GalaxySpace:item.SchematicTier7>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-75>]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 16384, 1600, 0, [10000], [<GalaxySpace:item.SchematicTier7>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-75>]); 
  
 MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 16384, 1800, 0, [10000], [<GalaxySpace:item.SchematicTier8>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-76>]); 
 ///SpaceDustCrusher///

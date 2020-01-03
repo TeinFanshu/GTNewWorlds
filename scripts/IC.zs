@@ -10,18 +10,23 @@ recipes.remove(<IC2:itemsteelrotor>);
 
 recipes.remove(<IC2:itemwcarbonrotor>);
 
+recipes.remove(<AFSU:AFSU>.withTag({energy: 0}));
+
 recipes.remove(<IC2:blockMachine:2>);
 
 recipes.remove(<IC2:blockAlloyGlass>);
 
 recipes.remove(<IC2:blockMachine2:11>);
 
+<AFSU:ALC>.displayName = "锂硒电池(IV)";
+<AFSU:ALC>.addTooltip(format.white("可放进EV、IV、Luv电池箱中"));
+<AFSU:ALC>.addTooltip(format.white("最大储电：12亿")+format.blue("EU"));
+
 recipes.addShaped(<IC2:blockMachine2:11>,
 [[<gregtech:gt.multiitem.technological:12003>,<gregtech:gt.multiitem.technological:12003>,<gregtech:gt.multiitem.technological:12003>],
  [<gregtech:gt.multitileentity:28767>,<GTaddition:Block-3>,                                       <gregtech:gt.multitileentity:28767>],
  [<ore:gt:circuit4>,                                                    <gregtech:gt.multiitem.technological:12083>,<ore:gt:circuit4>]]
  );
-
 
 recipes.addShaped(<IC2:itemPartCircuit>,
    [[  <gregtech:gt.meta.plateTiny:8733>,   <gregtech:gt.multiitem.technological:30001>,  <gregtech:gt.meta.plateTiny:8733>],
