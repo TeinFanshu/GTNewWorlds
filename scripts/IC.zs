@@ -18,9 +18,8 @@ recipes.remove(<IC2:blockAlloyGlass>);
 
 recipes.remove(<IC2:blockMachine2:11>);
 
-<AFSU:ALC>.displayName = "锂硒电池(IV)";
-<AFSU:ALC>.addTooltip(format.white("可放进EV、IV、Luv电池箱中"));
-<AFSU:ALC>.addTooltip(format.white("最大储电：12亿")+format.blue("EU"));
+<AFSU:ALC>.displayName = "Li-Se Battery (IV) ";
+<AFSU:ALC>.addTooltip(format.white("MAX:1200000000")+format.blue(" EU "));
 
 recipes.addShaped(<IC2:blockMachine2:11>,
 [[<gregtech:gt.multiitem.technological:12003>,<gregtech:gt.multiitem.technological:12003>,<gregtech:gt.multiitem.technological:12003>],

@@ -2091,4 +2091,15 @@ recipes.addShaped(<gregtech:gt.multitileentity:10082>, [[<ore:wireGt01AnyCopper>
 recipes.addShaped(<gregtech:gt.multitileentity:10083>, [[<ore:wireGt01Gold>, <ore:cableGt01Gold>, <ore:wireGt01Gold>], [<ore:wireGt01Gold>, <ore:cableGt01Gold>, <ore:wireGt01Gold>], [<ore:gt:circuit3>, <GTaddition:Block-3>, <ore:gt:circuit3>]]);
 
 recipes.addShaped(<gregtech:gt.multitileentity:10084>, [[<ore:wireGt01Aluminium>, <ore:cableGt01Aluminium>, <ore:wireGt01Aluminium>], [<ore:wireGt01Aluminium>, <ore:cableGt01Aluminium>, <ore:wireGt01Aluminium>], [<ore:gt:circuit4>, <GTaddition:Block-1>, <ore:gt:circuit4>]]);
+
+recipes.addShaped(<GTaddition:Item-15>, 
+[[<ore:gt:circuit6>, <ore:dustLithiumPerchlorate>, <GTaddition:Item-81>], 
+[<gregtech:gt.meta.dust:340>, <ore:plateCurvedChromium>, <ore:stickGraphite>], 
+[<GTaddition:Item-81>, <ore:dustLithiumPerchlorate>, <ore:plateCurvedBatteryAlloy>]]);
+
+recipes.addShaped(<AFSU:ALC>, 
+[[<gregtech:gt.multitileentity:29366>, <gregtech:gt.meta.plateDouble:8668>, <gregtech:gt.multitileentity:29366>], 
+[<GTaddition:Item-80>, <gregtech:gt.multiitem.technological:30503>, <GTaddition:Item-80>], 
+[<GTaddition:Item-80>, <GTaddition:Item-80>,<GTaddition:Item-80>]]);
+
 print("Initialized gregtech");

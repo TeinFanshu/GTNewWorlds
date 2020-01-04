@@ -7,11 +7,11 @@ MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 600, 0, [10000], [<greg
 
 MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 600, 0, [10000], [<gregtech:gt.multiitem.technological:30500>, <gregtech:gt.multiitem.technological:30404>], [<gregtech:gt.multiitem.technological:30504>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 800, 0, [10000], [<gregtech:gt.multiitem.technological:30306>*4, <gregtech:gt.multiitem.technological:11006>*4, <GTaddition:Item-27>], [<gregtech:gt.multiitem.technological:30500>*2]);
+MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 800, 0, [10000], [<gregtech:gt.multiitem.technological:30306>*4, <gregtech:gt.multiitem.technological:11006>*4, <GTaddition:Item-27>], [<gregtech:gt.multiitem.technological:30500>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 128, 100, 0, [10000], [<gregtech:gt.meta.plateTiny:8689>*9, <gregtech:gt.meta.wireFine:8664>*54, <gregtech:gt.meta.plateGemTiny:8298>*9], [<GTaddition:Item-17>*9]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 256, 100, 0, [10000], [<gregtech:gt.meta.plateTiny:8689>, <gregtech:gt.meta.wireFine:8664>*6, <gregtech:gt.meta.plateGemTiny:8298>], [<GTaddition:Item-17>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 128, 100, 0, [10000], [<gregtech:gt.meta.plateTiny:8689>, <gregtech:gt.meta.wireFine:8664>*6, <gregtech:gt.meta.plateGemTiny:8298>], [<GTaddition:Item-17>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 16, 200, 0, [10000], [<gregtech:gt.meta.plate:140>, <GTaddition:Item-31>], [<gregtech:gt.multiitem.technological:30000>]);
 
@@ -403,6 +403,12 @@ MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 16, 5000, 0, [10000], [<greg
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 100, 0, [10000], [<GTaddition:Item-63>*4, <GTaddition:Item-25>*2], [<liquid:molten.annealedcopper>*72], [null], [<GTaddition:Item-62>*2]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.loom", false, 256, 450, 0, [10000], [<gregtech:gt.meta.wireFine:8638>*16, <gregtech:gt.meta.plate:8217>*2, <minecraft:string>*8], [<GalacticraftMars:item.itemBasicAsteroids:7>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.canner", false, 16, 128, 0, [10000], [<GTaddition:Item-15>], [<liquid:hydrogenfluoride>*2000], [null], [<GTaddition:Item-80>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 16, 64, 0, [10000], [<GTaddition:Item-48>, <gregtech:gt.multiitem.technological:10029>*0], [<GTaddition:Item-81>*4]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 16, 64, 0, [10000], [<GTaddition:Item-48>, <gregtech:gt.multiitem.technological:10229>*0], [<GTaddition:Item-81>*4]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 40000, 0, [10000], [<HardcoreEnderExpansion:end_powder>], [<liquid:radon>*20], [null], [<minecraft:ender_pearl>*3]);
 
