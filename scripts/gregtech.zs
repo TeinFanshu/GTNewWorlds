@@ -1038,29 +1038,8 @@ recipes.addShaped(<gregtech:gt.multitileentity:20024>,
  [      <gregtech:gt.meta.screw:8635>,         <gregtech:gt.meta.spring:8635>,      <gregtech:gt.meta.screw:8635>],
  [<gregtech:gt.meta.plateDouble:8635>,           <ore:craftingToolHardHammer>,           <ore:craftingToolWrench>]]
  );
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-//////////LvME/////////
 
+//////////LvME/////////
 recipes.remove(<gregtech:gt.multitileentity:20351>);
 
 recipes.addShaped(<gregtech:gt.multitileentity:20351>,
@@ -1729,63 +1708,63 @@ recipes.remove(<gregtech:gt.multiitem.technological:1098>);
 recipes.remove(<gregtech:gt.multiitem.technological:1099>); 
  
 recipes.addShaped(<gregtech:gt.multiitem.technological:1090>*3,
-[[                           null,                                      null,   <gregtech:gt.metatool.01:16>],
+[[                           null,                                      null,   <ore:craftingToolWrench>],
  [<gregtech:gt.meta.wireFine:760>,<gregtech:gt.multiitem.technological:1000>,<gregtech:gt.meta.wireFine:760>],
- [<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.multiitem.technological:30305>]]
+ [<ore:gt:circuit5>,<gregtech:gt.multiitem.technological:30503>,<ore:gt:circuit5>]]
 ); 
  
 recipes.addShaped(<gregtech:gt.multiitem.technological:1091>*3,
-[[                           null,              <gregtech:gt.metatool.01:16>,                           null],
+[[                           null,           <ore:craftingToolWrench>,                           null],
  [<gregtech:gt.meta.wireFine:760>,<gregtech:gt.multiitem.technological:1000>,<gregtech:gt.meta.wireFine:760>],
- [<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.multiitem.technological:30305>]]
+ [<ore:gt:circuit5>,<gregtech:gt.multiitem.technological:30503>,<ore:gt:circuit5>]]
 ); 
  
 recipes.addShaped(<gregtech:gt.multiitem.technological:1092>*3,
-[[   <gregtech:gt.metatool.01:16>,                                      null,                           null],
+[[   <ore:craftingToolWrench>,                                      null,                           null],
  [<gregtech:gt.meta.wireFine:760>,<gregtech:gt.multiitem.technological:1000>,<gregtech:gt.meta.wireFine:760>],
- [<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.multiitem.technological:30305>]]
+ [<ore:gt:circuit5>,<gregtech:gt.multiitem.technological:30503>,<ore:gt:circuit5>]]
 ); 
  
 recipes.addShaped(<gregtech:gt.multiitem.technological:1093>*3,
-[[                           null,                                      null,   <gregtech:gt.metatool.01:14>],
+[[                           null,                                      null,   <ore:craftingToolSoftHammer>],
  [<gregtech:gt.meta.wireFine:760>,<gregtech:gt.multiitem.technological:1000>,<gregtech:gt.meta.wireFine:760>],
- [<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.multiitem.technological:30305>]]
+ [<ore:gt:circuit5>,<gregtech:gt.multiitem.technological:30503>,<ore:gt:circuit5>]]
 );  
  
 recipes.addShaped(<gregtech:gt.multiitem.technological:1094>*3,
-[[                           null,              <gregtech:gt.metatool.01:14>,                           null],
+[[                           null,          <ore:craftingToolSoftHammer>,                           null],
  [<gregtech:gt.meta.wireFine:760>,<gregtech:gt.multiitem.technological:1000>,<gregtech:gt.meta.wireFine:760>],
- [<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.multiitem.technological:30305>]]
+ [<ore:gt:circuit5>,<gregtech:gt.multiitem.technological:30503>,<ore:gt:circuit5>]]
 );  
  
 recipes.addShaped(<gregtech:gt.multiitem.technological:1095>*3,
-[[   <gregtech:gt.metatool.01:14>,                                      null,                           null],
+[[<ore:craftingToolSoftHammer>,                             null,                           null],
  [<gregtech:gt.meta.wireFine:760>,<gregtech:gt.multiitem.technological:1000>,<gregtech:gt.meta.wireFine:760>],
- [<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.multiitem.technological:30305>]]
+ [<ore:gt:circuit5>,<gregtech:gt.multiitem.technological:30503>,<ore:gt:circuit5>]]
 );  
  
 recipes.addShaped(<gregtech:gt.multiitem.technological:1096>*3,
-[[                           null,                                      null,   <gregtech:gt.metatool.01:22>],
+[[                           null,                                      null,   <ore:craftingToolScrewdriver>],
  [<gregtech:gt.meta.wireFine:760>,<gregtech:gt.multiitem.technological:1000>,<gregtech:gt.meta.wireFine:760>],
- [<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.multiitem.technological:30305>]]
+ [<ore:gt:circuit5>,<gregtech:gt.multiitem.technological:30503>,<ore:gt:circuit5>]]
 );   
  
 recipes.addShaped(<gregtech:gt.multiitem.technological:1097>*3,
-[[                           null,              <gregtech:gt.metatool.01:22>,                           null],
+[[                           null,              <ore:craftingToolScrewdriver>,                           null],
  [<gregtech:gt.meta.wireFine:760>,<gregtech:gt.multiitem.technological:1000>,<gregtech:gt.meta.wireFine:760>],
- [<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.multiitem.technological:30305>]]
+ [<ore:gt:circuit5>,<gregtech:gt.multiitem.technological:30503>,<ore:gt:circuit5>]]
 );  
  
 recipes.addShaped(<gregtech:gt.multiitem.technological:1098>*3,
-[[   <gregtech:gt.metatool.01:22>,                                      null,                           null],
+[[  <ore:craftingToolScrewdriver>,                                      null,                           null],
  [<gregtech:gt.meta.wireFine:760>,<gregtech:gt.multiitem.technological:1000>,<gregtech:gt.meta.wireFine:760>],
- [<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.multiitem.technological:30305>]]
+ [<ore:gt:circuit5>,<gregtech:gt.multiitem.technological:30503>,<ore:gt:circuit5>]]
 );   
 
 recipes.addShaped(<gregtech:gt.multiitem.technological:1099>*3,
 [[                           null,                                      null,                           null],
  [<gregtech:gt.meta.wireFine:760>,<gregtech:gt.multiitem.technological:1000>,<gregtech:gt.meta.wireFine:760>],
- [<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.multiitem.technological:30305>]]
+ [<ore:gt:circuit5>,<gregtech:gt.multiitem.technological:30503>,<ore:gt:circuit5>]]
 );    
  
 recipes.remove(<IC2:blockReactorChamber>);

@@ -231,14 +231,6 @@ recipes.addShaped(<GalacticraftCore:tile.machine2:4>,
  [        <gregtech:gt.multitileentity:29019>,<gregtech:gt.multiitem.technological:30306>,        <gregtech:gt.multitileentity:29019>]]
  );
 
-recipes.remove(<GalaxySpace:assemblymachine>);
-
-recipes.addShaped(<GalaxySpace:assemblymachine>,
-[[        <gregtech:gt.multitileentity:29019>,<gregtech:gt.multiitem.technological:30503>,        <gregtech:gt.multitileentity:29019>], 
- [<gregtech:gt.multiitem.technological:11008>,         <GalacticraftCore:tile.machine2:4>,<gregtech:gt.multiitem.technological:11008>],
- [        <gregtech:gt.multitileentity:20335>,<gregtech:gt.multiitem.technological:30504>,        <gregtech:gt.multitileentity:20104>]]
- );
-
 mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.Tier5Rocket>,
 [[<GTaddition:Item-73>,null,null,null,<GalaxySpace:item.RocketParts>,null,null,null,null],
  [null,null,null,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,null,null,null],
