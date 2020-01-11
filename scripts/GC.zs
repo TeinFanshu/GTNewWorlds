@@ -500,7 +500,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 320, 0, [10
 
 MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 320, 0, [10000], [<gregapi:gt.integrated_circuit:4>*0, <GTaddition:Item-67>, <minecraft:tnt>*40], [<GalaxySpace:item.HeavyDutyPlate4>]); 
 ////////T5////////
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 200, 0, [10000], [<GalaxySpace:item.HeavyDutyPlate4>, <gregtech:gt.meta.plate:1740>*8], [<liquid:molten.iridium>*72], [null], [<GTaddition:Item-68>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 200, 0, [10000], [<GalaxySpace:item.HeavyDutyPlate4>, <gregtech:gt.meta.plate:1740>*8], [<liquid:molten.osmium>*96], [null], [<GTaddition:Item-68>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 400, 0, [10000], [<gregapi:gt.integrated_circuit:5>*0, <GTaddition:Item-68>, <gregtech:gt.multitileentity:32712>*16], [<GalaxySpace:item.HeavyDutyPlate5>]);
 
@@ -509,6 +509,36 @@ MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 400, 0, [10
 MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 400, 0, [10000], [<gregapi:gt.integrated_circuit:5>*0, <GTaddition:Item-68>, <IC2:blockITNT>*48], [<GalaxySpace:item.HeavyDutyPlate5>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 400, 0, [10000], [<gregapi:gt.integrated_circuit:5>*0, <GTaddition:Item-68>, <minecraft:tnt>*64], [<GalaxySpace:item.HeavyDutyPlate5>]); 
+////////T6////////
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 2048, 160, 0, [10000], [<GalaxySpace:item.HeavyDutyPlate5>, <gregtech:gt.meta.plate:8794>*10], [<liquid:molten.trinium>*120], [null], [<GTaddition:Item-77>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 420, 0, [10000], [<gregapi:gt.integrated_circuit:6>*0, <GTaddition:Item-77>, <gregtech:gt.multitileentity:32712>*24], [<GalaxySpace:item.HeavyDutyPlate6>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 420, 0, [10000], [<gregapi:gt.integrated_circuit:6>*0, <GTaddition:Item-77>, <gregtech:gt.multitileentity:32713>*40], [<GalaxySpace:item.HeavyDutyPlate6>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 420, 0, [10000], [<gregapi:gt.integrated_circuit:6>*0, <GTaddition:Item-77>, <IC2:blockITNT>*64], [<GalaxySpace:item.HeavyDutyPlate6>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 420, 0, [10000], [<gregapi:gt.integrated_circuit:6>*0, <GTaddition:Item-77>, <minecraft:tnt>*64], [<GalaxySpace:item.HeavyDutyPlate6>]);
+////////T7////////
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 4096, 120, 0, [10000], [<GalaxySpace:item.HeavyDutyPlate6>, <gregtech:gt.meta.plate:8798>*12], [<liquid:molten.osmiridium>*144], [null], [<GTaddition:Item-78>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 440, 0, [10000], [<gregapi:gt.integrated_circuit:7>*0, <GTaddition:Item-78>, <gregtech:gt.multitileentity:32712>*32], [<GalaxySpace:item.HeavyDutyPlate7>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 440, 0, [10000], [<gregapi:gt.integrated_circuit:7>*0, <GTaddition:Item-78>, <gregtech:gt.multitileentity:32713>*64], [<GalaxySpace:item.HeavyDutyPlate7>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 440, 0, [10000], [<gregapi:gt.integrated_circuit:7>*0, <GTaddition:Item-78>, <IC2:blockITNT>*64], [<GalaxySpace:item.HeavyDutyPlate7>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 440, 0, [10000], [<gregapi:gt.integrated_circuit:7>*0, <GTaddition:Item-78>, <minecraft:tnt>*64], [<GalaxySpace:item.HeavyDutyPlate7>]);
+////////T8////////
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 8192, 80, 0, [10000], [<GalaxySpace:item.HeavyDutyPlate7>, <gregtech:gt.meta.plate:8684>*14], [<liquid:molten.adamantium>*48], [null], [<GTaddition:Item-79>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 460, 0, [10000], [<gregapi:gt.integrated_circuit:8>*0, <GTaddition:Item-79>, <gregtech:gt.multitileentity:32712>*64], [<GalaxySpace:item.HeavyDutyPlate8>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 460, 0, [10000], [<gregapi:gt.integrated_circuit:8>*0, <GTaddition:Item-79>, <gregtech:gt.multitileentity:32713>*64], [<GalaxySpace:item.HeavyDutyPlate8>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 460, 0, [10000], [<gregapi:gt.integrated_circuit:8>*0, <GTaddition:Item-79>, <IC2:blockITNT>*64], [<GalaxySpace:item.HeavyDutyPlate8>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 460, 0, [10000], [<gregapi:gt.integrated_circuit:8>*0, <GTaddition:Item-79>, <minecraft:tnt>*64], [<GalaxySpace:item.HeavyDutyPlate8>]);
 ////////RocketTechnological//////// 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 400, 0, [10000], [<GalacticraftCore:item.heavyPlating>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-69>]);
  
