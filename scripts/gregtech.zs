@@ -6,6 +6,8 @@ recipes.addShapeless(<gregtech:gt.meta.plate:8500>,
 
 recipes.remove(<gregtech:gt.multitileentity:18005>);
 
+recipes.remove(<gregtech:gt.multitileentity:18045>);
+
 recipes.remove(<gregtech:gt.multitileentity:18008>);
 
 recipes.remove(<gregtech:gt.multitileentity:29400>);
@@ -2065,6 +2067,10 @@ recipes.remove(<gregtech:gt.multitileentity:10083>);
 
 recipes.remove(<gregtech:gt.multitileentity:10084>); 
 
+recipes.remove(<gregtech:gt.multiitem.technological:20006>); 
+
+recipes.remove(<gregtech:gt.multiitem.technological:20008>); 
+
 recipes.addShaped(<gregtech:gt.multitileentity:10082>, [[<ore:wireGt01AnyCopper>, <ore:cableGt01AnyCopper>, <ore:wireGt01AnyCopper>], [<ore:wireGt01AnyCopper>, <ore:cableGt01AnyCopper>, <ore:wireGt01AnyCopper>], [<ore:gt:circuit2>, <GTaddition:Block-2>, <ore:gt:circuit2>]]);
 
 recipes.addShaped(<gregtech:gt.multitileentity:10083>, [[<ore:wireGt01Gold>, <ore:cableGt01Gold>, <ore:wireGt01Gold>], [<ore:wireGt01Gold>, <ore:cableGt01Gold>, <ore:wireGt01Gold>], [<ore:gt:circuit3>, <GTaddition:Block-3>, <ore:gt:circuit3>]]);
@@ -2080,5 +2086,15 @@ recipes.addShaped(<AFSU:ALC>,
 [[<gregtech:gt.multitileentity:29366>, <gregtech:gt.meta.plateDouble:8668>, <gregtech:gt.multitileentity:29366>], 
 [<GTaddition:Item-80>, <gregtech:gt.multiitem.technological:30503>, <GTaddition:Item-80>], 
 [<GTaddition:Item-80>, <GTaddition:Item-80>,<GTaddition:Item-80>]]);
+
+recipes.addShaped(<gregtech:gt.multiitem.technological:20006>, 
+[[<ore:gt:circuit4>, <ore:dustLithiumPerchlorate>, <GTaddition:Item-82>], 
+[<ore:stickCobalt>, <ore:plateCurvedChromium>, <ore:stickGraphite>], 
+[<GTaddition:Item-82>, <ore:dustLithiumPerchlorate>, <ore:plateCurvedBatteryAlloy>]]);
+
+recipes.addShaped(<gregtech:gt.multiitem.technological:20008>, 
+[[<ore:gt:circuit6>, <ore:dustLithiumPerchlorate>, <GTaddition:Item-82>], 
+[<ore:stickManganese>, <ore:plateCurvedChromium>, <ore:stickGraphite>], 
+[<GTaddition:Item-82>, <ore:dustLithiumPerchlorate>, <ore:plateCurvedBatteryAlloy>]]);
 
 print("Initialized gregtech");

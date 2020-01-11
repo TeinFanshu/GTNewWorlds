@@ -410,6 +410,18 @@ MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 16, 64, 0, [10000], [<GTa
 
 MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 16, 64, 0, [10000], [<GTaddition:Item-48>, <gregtech:gt.multiitem.technological:10229>*0], [<GTaddition:Item-81>*4]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 16, 64, 0, [10000], [<GTaddition:Item-31>, <gregtech:gt.multiitem.technological:10029>*0], [<GTaddition:Item-82>*4]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 16, 64, 0, [10000], [<GTaddition:Item-31>, <gregtech:gt.multiitem.technological:10229>*0], [<GTaddition:Item-82>*4]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 16, 48, 0, [10000], [<minecraft:clay_ball>, <gregtech:gt.multiitem.technological:10201>*0], [<GTaddition:Item-24>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 16, 48, 0, [10000], [<minecraft:clay_ball>, <gregtech:gt.multiitem.technological:10001>*0], [<GTaddition:Item-24>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 16, 48, 0, [10000], [<gregtech:gt.multiitem.food:12310>, <gregtech:gt.multiitem.technological:10201>*0], [<GTaddition:Item-24>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 16, 48, 0, [10000], [<gregtech:gt.multiitem.food:12310>, <gregtech:gt.multiitem.technological:10001>*0], [<GTaddition:Item-24>]);
+
 MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 40000, 0, [10000], [<HardcoreEnderExpansion:end_powder>], [<liquid:radon>*20], [null], [<minecraft:ender_pearl>*3]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 128000, 0, [10000], [<minecraft:skull>], [<liquid:radon>*30], [null], [<minecraft:skull:1>]);
