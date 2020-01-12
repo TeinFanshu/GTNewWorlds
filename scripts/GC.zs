@@ -510,7 +510,7 @@ MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 400, 0, [10
 
 MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 400, 0, [10000], [<gregapi:gt.integrated_circuit:5>*0, <GTaddition:Item-68>, <minecraft:tnt>*64], [<GalaxySpace:item.HeavyDutyPlate5>]); 
 ////////T6////////
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 2048, 160, 0, [10000], [<GalaxySpace:item.HeavyDutyPlate5>, <gregtech:gt.meta.plate:8794>*10], [<liquid:molten.trinium>*120], [null], [<GTaddition:Item-77>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 2048, 160, 0, [10000], [<GalaxySpace:item.HeavyDutyPlate5>, <GTaddition:Item-14>*10], [<liquid:molten.trinium>*120], [null], [<GTaddition:Item-77>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.implosioncompressor", false, 0, 420, 0, [10000], [<gregapi:gt.integrated_circuit:6>*0, <GTaddition:Item-77>, <gregtech:gt.multitileentity:32712>*24], [<GalaxySpace:item.HeavyDutyPlate6>]);
 
@@ -555,5 +555,11 @@ MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 12288, 1400, 0,[100
 MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 16384, 1600, 0, [10000], [<GalaxySpace:item.SchematicTier7>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-75>]); 
  
 MTUtilsGT.addCustomRecipe("gt.recipe.scannervisuals", false, 16384, 1800, 0, [10000], [<GalaxySpace:item.SchematicTier8>, <gregtech:gt.multiitem.technological:30504>], [<GTaddition:Item-76>]); 
-///SpaceDustCrusher///
-//TODO list Some dust Process//
+///SpaceDustProcess///
+MTUtilsGT.addCustomRecipe("gt.recipe.smelter", false, 16, 49, 0, [10000], [<GalaxySpace:phobosblocks:2>], [null], [<liquid:molten.marsstone>*144], [null]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.smelter", false, 16, 49, 0, [10000], [<GalaxySpace:deimosblocks>], [null], [<liquid:molten.marsstone>*144], [null]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.smelter", false, 16, 49, 0, [10000], [<GalaxySpace:deimosblocks:1>], [null], [<liquid:molten.marsstone>*144], [null]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.electrolyzer", false, 256, 196, 0, [2500, 1500], [<gregapi:gt.integrated_circuit>*0], [<liquid:molten.marsstone>*144], [<liquid:nitrogendioxide>*200, <liquid:helium3>*50, <liquid:helium>*125, <liquid:chlorine>*100, <liquid:deuterium>*125, <liquid:hydrogen>*125], [<gregtech:gt.meta.dustSmall:9133>, <gregtech:gt.meta.dustSmall:780>]);
