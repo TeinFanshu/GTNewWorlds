@@ -203,58 +203,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<GalacticraftMars:item.itemTier3Rocket>,
  [null,null,<GalacticraftCore:item.fuelCanisterPartial:1>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids:1>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftCore:item.fuelCanisterPartial:1>,null,null]]
  );
 
-mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.Tier4Rocket>,
-[[<GTaddition:Item-72>,null,null,null,<GalacticraftMars:item.heavyNoseCone>,null,null,null,null],
- [null,null,null,<GalaxySpace:item.RocketParts>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.RocketParts>,null,null,null],
- [null,null,null,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.HeavyDutyPlate4>,null,null,null],
- [null,null,null,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.HeavyDutyPlate4>,null,null,null],
- [null,null,null,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.HeavyDutyPlate4>,null,null,null],
- [null,null,null,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.ModuleLander3>,<GalaxySpace:item.HeavyDutyPlate4>,null,null,null],
- [null,null,<GalaxySpace:item.RocketParts:3>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.RocketParts:3>,null,null],
- [null,null,<GalaxySpace:item.RocketParts:3>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.RocketParts:3>,null,null],
- [null,null,<GalaxySpace:item.RocketParts:3>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.RocketParts:1>,<GalaxySpace:item.HeavyDutyPlate4>,<GalaxySpace:item.RocketParts:3>,null,null]]
- );
-
-recipes.remove(<GalacticraftCore:tile.spinThruster>);
-
-recipes.addShaped(<GalacticraftCore:tile.spinThruster>,
-[[           <GalaxySpace:item.RocketParts:1>,<GalaxySpace:item.HeavyDutyPlate5>,null], 
- [<gregtech:gt.multiitem.technological:30502>,<GalaxySpace:item.HeavyDutyPlate5>,null],
- [        <gregtech:gt.multitileentity:32717>,<GalaxySpace:item.HeavyDutyPlate5>,null]]
- );
-
-recipes.remove(<GalacticraftCore:tile.machine2:4>);
-
-recipes.addShaped(<GalacticraftCore:tile.machine2:4>,
-[[         <gregtech:gt.meta.plateDouble:130>,<gregtech:gt.multiitem.technological:30501>,         <gregtech:gt.meta.plateDouble:130>],
- [<gregtech:gt.multiitem.technological:11003>,     <gregtech:gt.meta.machine.double:8630>,<gregtech:gt.multiitem.technological:11003>],
- [        <gregtech:gt.multitileentity:29019>,<gregtech:gt.multiitem.technological:30306>,        <gregtech:gt.multitileentity:29019>]]
- );
-
-mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.Tier5Rocket>,
-[[<GTaddition:Item-73>,null,null,null,<GalaxySpace:item.RocketParts>,null,null,null,null],
- [null,null,null,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,null,null,null],
- [null,null,null,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,null,null,null],
- [null,null,null,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.ModuleLander3>,<GalaxySpace:item.HeavyDutyPlate5>,null,null,null],
- [null,null,null,<GalaxySpace:item.HeavyDutyPlate5>,<gregtech:gt.multitileentity:18200>,<GalaxySpace:item.HeavyDutyPlate5>,null,null,null],
- [null,null,<GalaxySpace:item.RocketParts:2>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.RocketParts:2>,null,null],
- [null,null,<GalaxySpace:item.RocketParts:2>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.RocketParts:2>,null,null],
- [null,null,<GalaxySpace:item.RocketParts:3>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.RocketParts:3>,null,null],
- [null,null,<GalacticraftCore:tile.spinThruster>,<GalaxySpace:item.HeavyDutyPlate5>,<GalaxySpace:item.RocketParts:1>,<GalaxySpace:item.HeavyDutyPlate5>,<GalacticraftCore:tile.spinThruster>,null,null]]
- );
-
-mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.Tier6Rocket>,
-[[<GTaddition:Item-74>,null,null,<GalaxySpace:item.RocketParts>,<GalaxySpace:item.RocketParts>,<GalaxySpace:item.RocketParts>,null,null,null],
- [null,null,null,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.HeavyDutyPlate6>,null,null,null],
- [null,null,null,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.HeavyDutyPlate6>,null,null,null],
- [null,null,null,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.ModuleLander3>,<GalaxySpace:item.HeavyDutyPlate6>,null,null,null],
- [null,<GalaxySpace:item.RocketParts:2>,null,<GalaxySpace:item.HeavyDutyPlate6>,<gregtech:gt.multitileentity:18200>,<GalaxySpace:item.HeavyDutyPlate6>,null,<GalaxySpace:item.RocketParts:2>,null],
- [<GalaxySpace:item.RocketParts:2>,<GalaxySpace:item.ModuleSmallFuelCanister>,<GalaxySpace:item.RocketParts:2>,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.RocketParts:2>,<GalaxySpace:item.ModuleSmallFuelCanister>,<GalaxySpace:item.RocketParts:2>],
- [<GalaxySpace:item.RocketParts:2>,<GalaxySpace:item.ModuleSmallFuelCanister>,<GalaxySpace:item.RocketParts:2>,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.RocketParts:2>,<GalaxySpace:item.ModuleSmallFuelCanister>,<GalaxySpace:item.RocketParts:2>],
- [<GalaxySpace:item.RocketParts:3>,<GalaxySpace:item.ModuleSmallFuelCanister>,<GalaxySpace:item.RocketParts:3>,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.HeavyDutyPlate6>,<GalaxySpace:item.RocketParts:3>,<GalaxySpace:item.ModuleSmallFuelCanister>,<GalaxySpace:item.RocketParts:3>],
- [<GalaxySpace:item.RocketParts:1>,<GalaxySpace:item.RocketParts:1>,<GalaxySpace:item.RocketParts:1>,<GalaxySpace:item.RocketParts:1>,<GalacticraftCore:tile.spinThruster>,<GalaxySpace:item.RocketParts:1>,<GalaxySpace:item.RocketParts:1>,<GalaxySpace:item.RocketParts:1>,<GalaxySpace:item.RocketParts:1>]]
- );
-
 MTUtilsGT.removeAllRecipes("gt.recipe.compressor", <GalacticraftCore:item.basicItem:9>);
 
 furnace.remove(<gregtech:gt.meta.ingot:220>);
