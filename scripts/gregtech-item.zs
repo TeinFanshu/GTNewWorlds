@@ -402,8 +402,6 @@ MTUtilsGT.addCustomRecipe("gt.recipe.press", false, 16, 5000, 0, [10000], [<greg
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 100, 0, [10000], [<GTaddition:Item-63>*4, <GTaddition:Item-25>*2], [<liquid:molten.annealedcopper>*72], [null], [<GTaddition:Item-62>*2]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.loom", false, 256, 450, 0, [10000], [<gregtech:gt.meta.wireFine:8638>*16, <gregtech:gt.meta.plate:8217>*2, <minecraft:string>*8], [<GalacticraftMars:item.itemBasicAsteroids:7>]);
-
 MTUtilsGT.addCustomRecipe("gt.recipe.canner", false, 16, 128, 0, [10000], [<GTaddition:Item-15>], [<liquid:hydrogenfluoride>*2000], [null], [<GTaddition:Item-80>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 16, 64, 0, [10000], [<GTaddition:Item-48>, <gregtech:gt.multiitem.technological:10029>*0], [<GTaddition:Item-81>*4]);
@@ -428,4 +426,32 @@ MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 128000, 0, [10000], [<m
 
 MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 50000, 0, [10000], [<gregtech:gt.meta.dust:8320>], [<liquid:radon>*288], [null], [<minecraft:nether_star>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<IC2:blockAlloyGlass>], [<GTaddition:Item-83>*12]); 
+
 MTUtilsGT.addCustomRecipe("gt.recipe.replicator", false, 1, 65536, 0, [10000], [<GTaddition:Item-3>], [<liquid:neutralmatter>*12, <liquid:chargedmatter>*8], [null], [<minecraft:nether_star>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.centrifuge", false, 64, 128, 0, [10000], [<gregtech:gt.meta.dust:8346>*4], [<gregtech:gt.meta.dust:9006>*2]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.burnmixer", false, 64, 2000, 0, [10000], [<gregtech:gt.meta.dust:9006>*2, <gregtech:gt.meta.dust:8001>*3, <gregtech:gt.meta.dust:8006>*2], [<liquid:boron>*3000], [null], [<GTaddition:Item-86>*12]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 64, 100, 0, [10000], [<GTaddition:Item-86>, <gregtech:gt.multiitem.technological:10007>*0], [<GTaddition:Item-85>]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
