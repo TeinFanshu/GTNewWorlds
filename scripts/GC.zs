@@ -76,14 +76,14 @@ recipes.remove(<GalacticraftCore:tile.oxygenCompressor>);
 recipes.remove(<GalacticraftCore:item.airFan>);
 
 recipes.addShapeless(<GalacticraftCore:item.airFan>,
-[<gregtech:gt.meta.rotor:220>,<gregtech:gt.metatool.01:22>,]
+[<gregtech:gt.meta.rotor:220>,<ore:craftingToolScrewdriver>,]
  );
 
 recipes.remove(<GalacticraftCore:item.airVent>);
 
 recipes.addShaped(<GalacticraftCore:item.airVent>,
 [[<gregtech:gt.meta.stickLong:8630>,<gregtech:gt.meta.stickLong:8630>,<gregtech:gt.meta.stickLong:8630>], 
- [<gregtech:gt.meta.stickLong:8630>,     <gregtech:gt.metatool.01:12>,<gregtech:gt.meta.stickLong:8630>],
+ [<gregtech:gt.meta.stickLong:8630>,         <ore:craftingToolWrench>,<gregtech:gt.meta.stickLong:8630>],
  [<gregtech:gt.meta.stickLong:8630>,<gregtech:gt.meta.stickLong:8630>,<gregtech:gt.meta.stickLong:8630>]]
  );
 
@@ -106,26 +106,20 @@ recipes.addShaped(<GalacticraftMars:tile.hydrogenPipe>*8,
 recipes.remove(<GalacticraftCore:item.canister>);
 
 recipes.addShaped(<GalacticraftCore:item.canister>*3,
-[[<gregtech:gt.meta.plateCurved:8667>,       <gregtech:gt.metatool.01:16>,<gregtech:gt.meta.plateCurved:8667>],
- [<gregtech:gt.meta.plateCurved:8667>,       <gregtech:gt.metatool.01:12>,<gregtech:gt.meta.plateCurved:8667>],
+[[<gregtech:gt.meta.plateCurved:8667>,           <ore:craftingToolWrench>,<gregtech:gt.meta.plateCurved:8667>],
+ [<gregtech:gt.meta.plateCurved:8667>,       <ore:craftingToolHardHammer>,<gregtech:gt.meta.plateCurved:8667>],
  [<gregtech:gt.meta.plateCurved:8667>,<gregtech:gt.meta.plateDouble:8667>,<gregtech:gt.meta.plateCurved:8667>]]
  );
 
 recipes.remove(<GalacticraftCore:item.canister:1>);
 
 recipes.addShaped(<GalacticraftCore:item.canister:1>*3,
-[[<gregtech:gt.meta.plateCurved:8640>,       <gregtech:gt.metatool.01:16>,<gregtech:gt.meta.plateCurved:8640>],
- [<gregtech:gt.meta.plateCurved:8640>,       <gregtech:gt.metatool.01:12>,<gregtech:gt.meta.plateCurved:8640>],
+[[<gregtech:gt.meta.plateCurved:8640>,           <ore:craftingToolWrench>,<gregtech:gt.meta.plateCurved:8640>],
+ [<gregtech:gt.meta.plateCurved:8640>,       <ore:craftingToolHardHammer>,<gregtech:gt.meta.plateCurved:8640>],
  [<gregtech:gt.meta.plateCurved:8640>,<gregtech:gt.meta.plateDouble:8640>,<gregtech:gt.meta.plateCurved:8640>]]
  );
 
 recipes.remove(<GalacticraftCore:item.oilCanisterPartial:1001>);
-
-recipes.addShaped(<GalacticraftCore:item.oilCanisterPartial:1001>,
-[[<gregtech:gt.meta.plateCurved:8667>,<gregtech:gt.meta.plateDouble:8630>,<gregtech:gt.meta.plateCurved:8667>],
- [<gregtech:gt.meta.plateCurved:8667>,   <gregtech:gt.meta.plateGem:8001>,<gregtech:gt.meta.plateCurved:8667>],
- [<gregtech:gt.meta.plateCurved:8667>,   <GalacticraftCore:item.canister>,<gregtech:gt.meta.plateCurved:8667>]]
- );
 
 recipes.remove(<GalacticraftCore:item.engine>);
 
@@ -589,31 +583,95 @@ MTUtilsGT.addCustomRecipe("gt.recipe.burnmixer", false, 64, 2000, 0, [10000], [<
 
 MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 64, 100, 0, [10000], [<GTaddition:Item-86>, <gregtech:gt.multiitem.technological:10007>*0], [<GTaddition:Item-85>]);
 
+recipes.remove(<GalacticraftCore:tile.machine2:4>);
 
+recipes.remove(<GalacticraftCore:tile.machine2:8>);
 
+recipes.remove(<GalacticraftCore:tile.machineTiered>);
 
+recipes.addShaped(<GalacticraftCore:tile.machine2:8>,
+[[<gregtech:gt.multitileentity:28767>,<gregtech:gt.multiitem.technological:12023>,<gregtech:gt.multitileentity:28767>],
+ [<gregtech:gt.multitileentity:32716>,            <gregtech:gt.meta.machine:8630>,<gregtech:gt.multitileentity:32716>],
+ [<gregtech:gt.multitileentity:28767>,<gregtech:gt.multiitem.technological:12003>,<gregtech:gt.multitileentity:28767>]]
+ );
 
+recipes.addShaped(<GalacticraftCore:tile.machineTiered>,
+[[<gregtech:gt.multitileentity:28767>,<gregtech:gt.multiitem.technological:12003>,<gregtech:gt.multitileentity:28767>],
+ [<gregtech:gt.multitileentity:14013>,            <gregtech:gt.meta.machine:8630>,<gregtech:gt.multitileentity:14013>],
+ [<gregtech:gt.multitileentity:28767>,<gregtech:gt.multiitem.technological:12003>,<gregtech:gt.multitileentity:28767>]]
+ );
 
+recipes.remove(<GalacticraftCore:item.engine:1>);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 200, 0, [10000], [<GalacticraftCore:item.airVent>, <GalacticraftCore:item.heavyPlating>*2, <gregtech:gt.meta.spring:8600>, <gregtech:gt.meta.plate:8649>*4], [<GalacticraftCore:item.engine:1>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 240, 0, [10000], [<gregtech:gt.meta.plateCurved:8636>*8, <gregtech:gt.meta.plateDouble:8636>*2, <GTaddition:Item-83>, <gregtech:gt.meta.screw:8636>*4], [<GalacticraftCore:item.oilCanisterPartial:1001>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 400, 0, [10000], [<gregtech:gt.meta.stickLong:8650>*4, <gregtech:gt.meta.plate:8650>*5, <gregtech:gt.meta.plate:8217>*16, <gregtech:gt.meta.screw:8650>*9], [<GalacticraftCore:item.buggymat>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 355, 0, [10000], [<gregtech:gt.meta.plate:8650>*5, <gregtech:gt.meta.stick:8650>*4, <gregtech:gt.meta.screw:8650>*2], [<liquid:molten.solderingalloy>*432], [null], [<GalacticraftCore:item.buggymat:1>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 500, 0, [10000], [<GalacticraftCore:item.buggymat:1>, <GalacticraftCore:item.buggymat>*4, <GalacticraftCore:item.heavyPlating>*8, <GalacticraftCore:item.basicItem:19>], [<liquid:molten.solderingalloy>*1440], [null], [<GalacticraftCore:item.buggy>]);
 
+recipes.remove(<GalacticraftCore:item.basicItem:20>);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 150, 0, [10000], [<GalacticraftCore:item.basicItem:20>*4, <gregtech:gt.multiitem.technological:12123>, <gregtech:gt.multiitem.technological:30502>, <gregtech:gt.meta.stick:8333>*3], [<GalacticraftCore:item.basicItem:20>]);
 
+recipes.remove(<GalaxySpace:item.ThermalClothT2>);
 
+recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:8>);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 100, 0, [10000], [<gregtech:gt.multiitem.technological:30402>, <gregtech:gt.meta.foil:8660>*8], [<GalacticraftMars:item.itemBasicAsteroids:8>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 175, 0, [10000], [<gregtech:gt.meta.plateCurved:8689>*4, <GalacticraftMars:item.itemBasicAsteroids:8>, <gregtech:gt.meta.lens:8298>], [<GalacticraftMars:tile.beamReceiver>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 200, 0, [10000], [<gregtech:gt.meta.plate:8689>*5, <GalacticraftMars:item.itemBasicAsteroids:8>, <gregtech:gt.meta.lens:8298>], [<GalacticraftMars:tile.beamReflector>*2]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 350, 0, [10000], [<gregtech:gt.meta.plate:8689>*10, <gregtech:gt.meta.lens:8318>, <gregtech:gt.meta.lens:8319>, <GalacticraftMars:item.itemBasicAsteroids:8>, <gregtech:gt.multiitem.technological:30501>*2], [<GalacticraftMars:tile.telepadShort>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 500, 0, [10000], [<gregtech:gt.meta.machine.double:8750>, <GalacticraftCore:item.oxygenConcentrator>, <gregtech:gt.multiitem.technological:12103>, <gregtech:gt.meta.gearGt:8750>*2, <gregtech:gt.multitileentity:28719>*4], [<GalacticraftMars:tile.marsMachine>]);
 
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 700, 0, [10000], [<gregtech:gt.meta.machine.double:8750>, <gregtech:gt.multiitem.technological:12103>, <GalacticraftCore:item.basicItem:19>, <gregtech:gt.multitileentity:28719>*4], [<GalacticraftMars:tile.marsMachine:8>]);
 
+////Rocket Others////
 
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftCore:item.spaceship>, <gregtech:gt.multitileentity:9>], [<GalacticraftCore:item.spaceship:1>]); 
 
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftCore:item.spaceship>, <gregtech:gt.multitileentity:2>], [<GalacticraftCore:item.spaceship:2>]); 
 
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftCore:item.spaceship>, <gregtech:gt.multitileentity:11>], [<GalacticraftCore:item.spaceship:3>]); 
 
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftCore:item.buggy>, <gregtech:gt.multitileentity:9>], [<GalacticraftCore:item.buggy:1>]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftCore:item.buggy>, <gregtech:gt.multitileentity:2>], [<GalacticraftCore:item.buggy:2>]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftCore:item.buggy>, <gregtech:gt.multitileentity:11>], [<GalacticraftCore:item.buggy:3>]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftMars:item.spaceshipTier2>, <gregtech:gt.multitileentity:9>], [<GalacticraftMars:item.spaceshipTier2:1>]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftMars:item.spaceshipTier2>, <gregtech:gt.multitileentity:2>], [<GalacticraftMars:item.spaceshipTier2:2>]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftMars:item.spaceshipTier2>, <gregtech:gt.multitileentity:11>], [<GalacticraftMars:item.spaceshipTier2:3>]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftMars:item.itemTier3Rocket>, <gregtech:gt.multitileentity:9>], [<GalacticraftMars:item.itemTier3Rocket:1>]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftMars:item.itemTier3Rocket>, <gregtech:gt.multitileentity:2>], [<GalacticraftMars:item.itemTier3Rocket:2>]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<GalacticraftMars:item.itemTier3Rocket>, <gregtech:gt.multitileentity:11>], [<GalacticraftMars:item.itemTier3Rocket:3>]); 
+
+recipes.remove(<GalacticraftMars:tile.marsMachineT2>);
+
+recipes.remove(<GalacticraftMars:tile.marsMachineT2:4>);
+
+recipes.remove(<GalacticraftMars:tile.marsMachineT2:8>);
+
+recipes.remove(<GalacticraftMars:item.grapple>);
+
+recipes.addShaped(<GalacticraftMars:item.grapple>,
+[[                         null,                         null,           <minecraft:string>],
+ [<gregtech:gt.meta.stick:8630>,           <minecraft:string>,                         null],
+ [<gregtech:gt.meta.stick:8630>,<gregtech:gt.meta.stick:8630>,<gregtech:gt.meta.stick:8630>]]
+ );
 
 
 
