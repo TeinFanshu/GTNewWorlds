@@ -2,6 +2,8 @@
 import mods.MTUtilsGT;
 recipes.remove(<IC2:itemPartCircuit>);
 
+recipes.remove(<IC2:itemupgradekit>);
+
 recipes.remove(<IC2:itemwoodrotor>);
 
 recipes.remove(<IC2:itemironrotor>);
@@ -231,6 +233,10 @@ recipes.addShaped(<IC2:blockMachine:7>,
 [[<gregtech:gt.multiitem.technological:12043>,   <gregtech:gt.multitileentity:11>,<gregtech:gt.multiitem.technological:12043>],
  [<gregtech:gt.multiitem.technological:30304>,              <IC2:blockMachine:12>,<gregtech:gt.multiitem.technological:30304>],
  [                      <IC2:blockMiningPipe>,<gregtech:gt.multitileentity:28773>,                      <IC2:blockMiningPipe>]]
+ );
+
+recipes.addShapeless(<IC2:itemPartCircuitAdv>,
+[<gregtech:gt.multiitem.technological:30303>,]
  );
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 1024, 200, 0, [10000], [<Railcraft:part.plate:4>*5, <minecraft:glass_pane>],  [<liquid:molten.solderingalloy>*72], [null], [<IC2:itemArmorHazmatHelmet>]);

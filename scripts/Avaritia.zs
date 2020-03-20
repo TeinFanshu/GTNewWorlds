@@ -1,5 +1,16 @@
 import mods.MTUtilsGT;
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 6000, 0, [10000], [<Avaritia:Resource:1>*9,<gregtech:gt.multiitem.technological:30502>*4], [<liquid:radon>*2000], [null], [<Avaritia:Crystal_Matrix>]);
+
+
+
+
+
+
+
+
+
+
+
+
 
 recipes.remove(<Avaritia:Resource>);
 
@@ -12,17 +23,17 @@ recipes.addShaped(<Avaritia:Resource>,
 recipes.remove(<Avaritia:Resource:1>);
 
 recipes.addShaped(<Avaritia:Resource:1>,
-   [[             <Avaritia:Resource>,             <minecraft:nether_star>,  <Avaritia:Resource>],
+   [[             <Avaritia:Resource>,        <gregtech:gt.meta.lens:8320>,  <Avaritia:Resource>],
     [<gregtech:gt.meta.plateGem:8300>,                 <GTaddition:Item-3>,<gregtech:gt.meta.plateGem:8300>],
-	[             <Avaritia:Resource>,             <minecraft:nether_star>,  <Avaritia:Resource>]]
+	[             <Avaritia:Resource>,        <gregtech:gt.meta.lens:8320>,  <Avaritia:Resource>]]
  );
  
 recipes.remove(<Avaritia:Dire_Crafting>);
 
 recipes.addShaped(<Avaritia:Dire_Crafting>,
-   [[<gregtech:gt.multiitem.technological:12084>,<gregtech:gt.multiitem.technological:12104>,<gregtech:gt.multiitem.technological:12084>],
-    [<gregtech:gt.multiitem.technological:12004>,                  <Avaritia:Crystal_Matrix>,<gregtech:gt.multiitem.technological:12004>],
-    [                       <GTaddition:Item-18>,        <gregtech:gt.multitileentity:20335>,                       <GTaddition:Item-18>]]
+   [[<gregtech:gt.multiitem.technological:12084>,<gregtech:gt.multiitem.technological:12064>,<gregtech:gt.multiitem.technological:12084>],
+    [<gregtech:gt.multiitem.technological:12004>,                       <GTaddition:Item-89>,<gregtech:gt.multiitem.technological:12004>],
+    [              <gregtech:gt.meta.plate:8799>,                    <Avaritia:Triple_Craft>,              <gregtech:gt.meta.plate:8799>]]
 	
  );
  
@@ -61,3 +72,131 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Neutronium_Compressor>,
  [<gregtech:gt.multitileentity:18005>,<gregtech:gt.meta.screw:8800>,<gregtech:gt.meta.plateTriple:8800>,<gregtech:gt.meta.plateTriple:8800>,<gregtech:gt.meta.gearGt:8800>,<gregtech:gt.meta.plateTriple:8800>,<gregtech:gt.meta.plateTriple:8800>,<gregtech:gt.meta.screw:8800>,<gregtech:gt.multitileentity:18005>],
  [<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>,<gregtech:gt.multitileentity:18005>]]
  );
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

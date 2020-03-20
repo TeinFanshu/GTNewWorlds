@@ -251,11 +251,11 @@ recipes.addShapeless(<gregtech:gt.meta.chemtube:9884>*50,
    [<IC2:itemCellEmpty:3>,<IC2:itemCellEmpty:3>]
  );
 
-recipes.remove(<IC2:itemBatLamaCrystal:26>);
+recipes.remove(<IC2:itemBatLamaCrystal>);
 
-recipes.addShaped(<IC2:itemBatLamaCrystal:26>,
+recipes.addShaped(<IC2:itemBatLamaCrystal>,
 [[<gregtech:gt.meta.plateDense:8332>,<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.meta.plateDense:8332>],
- [<gregtech:gt.meta.plateDense:8332>,                    <IC2:itemBatCrystal:26>,<gregtech:gt.meta.plateDense:8332>],
+ [<gregtech:gt.meta.plateDense:8332>,                       <IC2:itemBatCrystal>,<gregtech:gt.meta.plateDense:8332>],
  [<gregtech:gt.meta.plateDense:8332>,<gregtech:gt.multiitem.technological:30305>,<gregtech:gt.meta.plateDense:8332>]]
  );
  
@@ -274,10 +274,7 @@ recipes.addShaped(<OpenBlocks:beartrap>,
  );
  
 recipes.remove(<gregtech:gt.multitileentity:27006>);
- 
-recipes.addShapeless(<gregtech:gt.meta.plate:8225>,
-[<minecraft:hardened_clay>,<gregtech:gt.metatool.01:10>,]
-);
+
 
 recipes.remove(<gregtech:gt.multitileentity:1200>);
 
@@ -1311,11 +1308,6 @@ recipes.addShaped(<gregtech:gt.multitileentity:20325>,
  );
 
 recipes.remove(<gregtech:gt.meta.lens:8299>);
-
-recipes.addShaped(<gregtech:gt.meta.lens:8299>,
-[[<IC2:itemBatLamaCrystal:26>,                        null],
- [                       null,<gregtech:gt.metatool.01:18>]]
- );
 
 recipes.addShaped(<gregtech:gt.multitileentity:20011>,
 [[<gregtech:gt.meta.gearGt:8621>,              <ore:craftingToolWrench>,<gregtech:gt.meta.gearGt:8621>],

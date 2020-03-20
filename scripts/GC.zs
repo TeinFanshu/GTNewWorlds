@@ -573,13 +573,15 @@ MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 128000, 0, [10000], [<m
 
 MTUtilsGT.addCustomRecipe("gt.recipe.massfab", false, 1, 50000, 0, [10000], [<gregtech:gt.meta.dust:8320>], [<liquid:radon>*288], [null], [<minecraft:nether_star>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<IC2:blockAlloyGlass>], [<GTaddition:Item-83>*12]); 
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<IC2:blockAlloyGlass>, <gregapi:gt.integrated_circuit>*0], [<GTaddition:Item-83>*12]); 
+
+MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 100, 0, [10000], [<appliedenergistics2:item.ItemViewCell>, <gregtech:gt.meta.machine:8756>], [<GalacticraftCore:tile.viewScreen>]); 
 
 MTUtilsGT.addCustomRecipe("gt.recipe.replicator", false, 1, 65536, 0, [10000], [<GTaddition:Item-3>], [<liquid:neutralmatter>*12, <liquid:chargedmatter>*8], [null], [<minecraft:nether_star>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.centrifuge", false, 64, 128, 0, [10000], [<gregtech:gt.meta.dust:8346>*4], [<gregtech:gt.meta.dust:9006>*2]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.burnmixer", false, 64, 2000, 0, [10000], [<gregtech:gt.meta.dust:9006>*2, <gregtech:gt.meta.dust:8001>*3, <gregtech:gt.meta.dust:8006>*2], [<GTaddition:Item-86>*12]);
+MTUtilsGT.addCustomRecipe("gt.recipe.burnmixer", false, 64, 2000, 0, [10000], [<gregtech:gt.meta.dust:9006>*2, <gregtech:gt.meta.dust:8001>*3, <gregtech:gt.meta.dust:9164>*2], [<GTaddition:Item-86>*12]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.extruder", false, 64, 100, 0, [10000], [<GTaddition:Item-86>, <gregtech:gt.multiitem.technological:10007>*0], [<GTaddition:Item-85>]);
 
@@ -615,8 +617,25 @@ MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 500, 0, [10000], [<Gal
 
 recipes.remove(<GalacticraftCore:item.basicItem:20>);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 150, 0, [10000], [<GalacticraftCore:item.basicItem:20>*4, <gregtech:gt.multiitem.technological:12123>, <gregtech:gt.multiitem.technological:30502>, <gregtech:gt.meta.stick:8333>*3], [<GalacticraftCore:item.basicItem:20>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 150, 0, [10000], [<gregtech:gt.meta.casingSmall:130>*8, <gregtech:gt.multiitem.technological:12123>, <gregtech:gt.multiitem.technological:30502>, <gregtech:gt.meta.stick:8333>*3], [<GalacticraftCore:item.basicItem:20>]);
 
+recipes.remove(<GalacticraftCore:tile.spinThruster>);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 500, 0, [10000], [<GalacticraftMars:item.itemBasicAsteroids:1>, <gregtech:gt.meta.plateCurved:8650>*3, <GalaxySpace:item.Modules:3>, <gregtech:gt.multiitem.technological:30306>], [<GalacticraftCore:tile.spinThruster>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 150, 0, [10000], [<gregtech:gt.meta.plateCurved:8631>*8, <gregtech:gt.meta.screw:8631>*4, <gregtech:gt.meta.ring:8631>*5], [<GalaxySpace:item.BasicItems>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 265, 0, [10000], [<GalaxySpace:item.BasicItems>, <gregtech:gt.meta.plateCurved:130>*4], [<GalaxySpace:item.Modules:3>]);
+///suit///
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 1000, 0, [10000], [<GalacticraftCore:item.oxygenConcentrator>, <GTaddition:Item-83>, <GalaxySpace:item.ThermalClothT2>*5, <gregtech:gt.meta.foil:740>*16, <gregtech:gt.meta.plate:8756>*5, <GalacticraftCore:item.basicItem:20>], [<GalaxySpace:item.spacesuit_helmet:330>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 1000, 0, [10000], [<GalacticraftCore:item.steel_chestplate>, <GalacticraftCore:item.oxygenGear>, <GalaxySpace:item.ThermalClothT2>*8, <gregtech:gt.meta.foil:740>*16, <gregtech:gt.meta.plate:8756>*8], [<GalaxySpace:item.spacesuit_plate:480>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 1000, 0, [10000], [<GalacticraftCore:item.oxygenConcentrator>, <GalaxySpace:item.ThermalClothT2>*7, <gregtech:gt.meta.foil:740>*16, <gregtech:gt.meta.plate:8756>*7], [<GalaxySpace:item.spacesuit_leg:450>]);
+
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 512, 1000, 0, [10000], [<IC2:itemStaticBoots>, <GalacticraftCore:item.oxygenConcentrator>, <GalaxySpace:item.ThermalClothT2>*4, <gregtech:gt.meta.foil:740>*16, <gregtech:gt.meta.plate:8756>*4], [<GalaxySpace:item.spacesuit_boots:390>]);
+
+/////////
 recipes.remove(<GalaxySpace:item.ThermalClothT2>);
 
 recipes.remove(<GalacticraftMars:item.itemBasicAsteroids:8>);
@@ -665,6 +684,8 @@ recipes.remove(<GalacticraftMars:tile.marsMachineT2:4>);
 
 recipes.remove(<GalacticraftMars:tile.marsMachineT2:8>);
 
+recipes.remove(<GalaxySpace:item.RocketParts:2>);
+
 recipes.remove(<GalacticraftMars:item.grapple>);
 
 recipes.addShaped(<GalacticraftMars:item.grapple>,
@@ -672,6 +693,122 @@ recipes.addShaped(<GalacticraftMars:item.grapple>,
  [<gregtech:gt.meta.stick:8630>,           <minecraft:string>,                         null],
  [<gregtech:gt.meta.stick:8630>,<gregtech:gt.meta.stick:8630>,<gregtech:gt.meta.stick:8630>]]
  );
+
+mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.RocketParts>,
+[[null,null,null,null,null,null,null,null,null],
+ [null,null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null,null],
+ [null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GTaddition:Item-83>,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftCore:item.airVent>,<GalacticraftCore:tile.viewScreen>,<GalacticraftCore:item.airVent>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftCore:item.airFan>,<GalacticraftCore:item.buggymat:1>,<GalacticraftCore:item.airFan>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<gregtech:gt.multitileentity:29023>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.multitileentity:29023>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<gregtech:gt.multiitem.technological:12004>,<GalaxySpace:item.Modules:1>,<gregtech:gt.multiitem.technological:12004>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,null,null,null,null,null,null,null]]
+ );
+
+mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.RocketParts:1>,
+[[null,null,null,null,null,null,null,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<gregtech:gt.multitileentity:26503>,<gregtech:gt.multiitem.technological:12024>,<gregtech:gt.multitileentity:26503>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftCore:item.basicItem:20>,<GalacticraftCore:item.oxygenConcentrator>,<gregtech:gt.multiitem.technological:12124>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<gregtech:gt.multiitem.technological:12004>,<GalacticraftCore:item.airFan>,<gregtech:gt.multiitem.technological:12004>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<GalacticraftCore:tile.spinThruster>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftCore:tile.spinThruster>,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalaxySpace:item.Modules:3>,<GalaxySpace:item.Modules:3>,<GalaxySpace:item.Modules:3>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalaxySpace:item.Modules:3>,<GalaxySpace:item.Modules:3>,<GalaxySpace:item.Modules:3>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,null,null,null,null,null,null,null]]
+ );
+
+mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.RocketParts:3>,
+[[null,null,null,null,null,null,null,null,null],
+ [null,null,null,null,null,null,null,null,null],
+ [null,null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null,null],
+ [null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalaxySpace:item.Modules:3>,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null],
+ [null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,<gregtech:gt.multitileentity:26502>,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null],
+ [null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids:1>,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null],
+ [null,null,null,null,null,null,null,null,null],
+ [null,null,null,null,null,null,null,null,null]]
+ );
+
+mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.RocketParts:2>,
+[[null,null,<GalacticraftMars:item.itemBasicAsteroids>,<gregtech:gt.multitileentity:26502>,<GalacticraftMars:item.itemBasicAsteroids>,<gregtech:gt.multitileentity:26502>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<gregtech:gt.multitileentity:26502>,<GalacticraftMars:item.itemBasicAsteroids>,<GalaxySpace:item.Modules:3>,<GalacticraftMars:item.itemBasicAsteroids>,<gregtech:gt.multitileentity:26502>,null,null],
+ [null,null,<gregtech:gt.multitileentity:26502>,<GalacticraftMars:item.itemBasicAsteroids>,<GalaxySpace:item.Modules:3>,<GalacticraftMars:item.itemBasicAsteroids>,<gregtech:gt.multitileentity:26502>,null,null],
+ [null,null,<GalaxySpace:item.RocketParts:3>,<gregtech:gt.multitileentity:26502>,<GalacticraftMars:item.itemBasicAsteroids:1>,<gregtech:gt.multitileentity:26502>,<GalaxySpace:item.RocketParts:3>,null,null],
+ [null,null,null,<GalaxySpace:item.RocketParts:3>,null,<GalaxySpace:item.RocketParts:3>,null,null,null],
+ [null,null,null,null,null,null,null,null,null],
+ [null,null,null,null,null,null,null,null,null],
+ [null,null,null,null,null,null,null,null,null]]
+ );
+
+mods.avaritia.ExtremeCrafting.addShaped(<GalaxySpace:item.RocketParts:4>,
+[[null,null,null,<GalacticraftMars:item.itemBasicAsteroids>,null,<GalacticraftMars:item.itemBasicAsteroids>,null,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,null,<GalacticraftMars:item.itemBasicAsteroids>,<GalacticraftMars:item.itemBasicAsteroids>,null,null],
+ [null,null,null,null,null,null,null,null,null],
+ [null,null,null,null,null,null,null,null,null],
+ [null,null,null,null,null,null,null,null,null],
+ [null,null,null,null,null,null,null,null,null]]
+ );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
