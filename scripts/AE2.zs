@@ -477,6 +477,28 @@ recipes.remove(<appliedenergistics2:item.ItemMultiPart:240>);
 
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:220>);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:260>);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 120, 0, [10000], [<gregtech:gt.multiitem.technological:12003>, <appliedenergistics2:item.ItemMultiMaterial:43>], [<liquid:molten.solderingalloy>*144], [null], [<appliedenergistics2:item.ItemMultiPart:260>]);
@@ -485,6 +507,6 @@ MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 120, 0, [10000], [<gr
 
 MTUtilsGT.addCustomRecipe("gt.recipe.nanofab", false, 512, 400, 0, [10000], [<gregtech:gt.multiitem.technological:12063>, <appliedenergistics2:item.ItemMultiPart:440>], [<liquid:molten.solderingalloy>*288], [null], [<appliedenergistics2:item.ItemMultiPart:220>]);
 
-MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 256, 1000, 0, [10000], [<gregtech:gt.multiitem.technological:32024>, <gregtech:gt.meta.plateDense:8635>*4, <gregtech:gt.meta.plateGem:140>*8, <gregtech:gt.multitileentity:18200>, <gregtech:gt.multitileentity:28700>*16], [<liquid:molten.solderingalloy>*288], [null], [<GTaddition:Item-32>]);
+MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 256, 1000, 0, [10000], [<gregtech:gt.multiitem.technological:32024>, <gregtech:gt.meta.plateDense:8635>*2, <gregtech:gt.meta.plateGem:140>*8, <gregtech:gt.multiitem.technological:30503>, <gregtech:gt.multiitem.technological:30501>, <gregtech:gt.multitileentity:28700>*16], [<liquid:molten.solderingalloy>*288], [null], [<GTaddition:Item-32>]);
 
 MTUtilsGT.addCustomRecipe("gt.recipe.welder", false, 256, 1000, 0, [10000], [<GTaddition:Item-32>, <gregtech:gt.meta.plateTriple:8796>*8, <appliedenergistics2:item.ItemMultiMaterial:24>*4], [<liquid:molten.solderingalloy>*432], [null], [<appliedenergistics2:tile.BlockDrive>]);

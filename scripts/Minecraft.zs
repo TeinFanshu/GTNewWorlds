@@ -202,7 +202,7 @@ recipes.remove(<minecraft:chest>);
 
 recipes.addShaped(<minecraft:chest>,
 [[          <ore:logWood>,                      <ore:plankAnyWood>,          <ore:logWood>],
- [<ore:plankAnyWood>,                           <minecraft:flint>,     <ore:plankAnyWood>],
+ [<minecraft:stick>,                           <gregtech:gt.meta.ring:8221>,     <minecraft:stick>],
  [          <ore:logWood>,               <ore:plankAnyWood>,              <ore:logWood>   ]]
  );
 

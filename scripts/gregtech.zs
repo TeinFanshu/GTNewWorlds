@@ -113,9 +113,9 @@ recipes.addShaped(<IC2:itemArmorJetpackElectric:27>,
  );
 
 recipes.addShaped(<gregtech:gt.meta.ring:8221>*2,
-   [[<gregtech:gt.metatool.01:12>,                        null,null],
-    [<gregtech:gt.metatool.01:48>,                        null,null],
-	[          <minecraft:planks>,<gregtech:gt.metatool.01:10>,null]]
+   [[null,                        null,null],
+    [<ore:craftingToolHardHammer>,                        null,null],
+	[          <minecraft:planks>,<ore:craftingToolSaw>,null]]
  );
 
 recipes.remove(<gregtech:gt.multitileentity:18101>);

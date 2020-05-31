@@ -4,6 +4,8 @@ print("Initializing DE2...");
 recipes.addShapeless(<DraconicEvolution:draconiumBlend>*2,
    [<DraconicEvolution:draconiumDust>,<gregtech:gt.meta.chemtube:9884>,]
  );
+ 
+furnace.remove(<DraconicEvolution:draconiumIngot>);
 
 recipes.remove(<DraconicEvolution:teleporterMKI>);
 
@@ -28,7 +30,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicCore>,
  [null,null,null,null,null,null,null,null,null],
  [null,null,<gregtech:gt.meta.plate:790>,null,<gregtech:gt.meta.plate:8791>,null,<gregtech:gt.meta.plate:790>,null,null],
  [null,null,null,<gregtech:gt.meta.plate:8791>,<gregtech:gt.meta.stick:8791>,<gregtech:gt.meta.plate:8791>,null,null,null],
- [null,null,<gregtech:gt.meta.plate:8791>,<gregtech:gt.meta.stick:8791>,<gregtech:gt.meta.plateGem:8300>,<gregtech:gt.meta.stick:8791>,<gregtech:gt.meta.plate:8791>,null,null],
+ [null,null,<gregtech:gt.meta.plate:8791>,<gregtech:gt.meta.stick:8791>,<gregtech:gt.multiitem.technological:30401>,<gregtech:gt.meta.stick:8791>,<gregtech:gt.meta.plate:8791>,null,null],
  [null,null,null,<gregtech:gt.meta.plate:8791>,<gregtech:gt.meta.stick:8791>,<gregtech:gt.meta.plate:8791>,null,null,null],
  [null,null,<gregtech:gt.meta.plate:790>,null,<gregtech:gt.meta.plate:8791>,null,<gregtech:gt.meta.plate:790>,null,null],
  [null,null,null,null,null,null,null,null,null],
@@ -355,8 +357,8 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:wyvernShovel>,
  [null,null,null,null,null,null,<gregtech:gt.meta.plate:8791>,<gregtech:gt.meta.plate:8791>,<gregtech:gt.meta.plate:8791>],
  [null,null,null,null,null,<gregtech:gt.meta.stickLong:8791>,null,<gregtech:gt.meta.plate:8791>,null],
  [null,null,null,<DraconicEvolution:draconiumEnergyCore>,<gregtech:gt.meta.stickLong:8791>,null,null,null,null],
- [null,null,<DraconicEvolution:wyvernCore>,<DraconicEvolution:draconiumFluxCapacitor>,null,null,null,null,null],
- [null,null,<gregtech:gt.meta.stickLong:8791>,<DraconicEvolution:wyvernCore>,<DraconicEvolution:draconiumEnergyCore>,null,null,null,null],
+ [null,null,<DraconicEvolution:wyvernCore>,<DraconicEvolution:draconiumFluxCapacitor>,<DraconicEvolution:draconiumEnergyCore>,null,null,null,null],
+ [null,null,<gregtech:gt.meta.stickLong:8791>,<DraconicEvolution:wyvernCore>,null,null,null,null,null],
  [null,<gregtech:gt.meta.stickLong:8791>,null,null,null,null,null,null,null],
  [<gregtech:gt.meta.stickLong:8791>,null,null,null,null,null,null,null,null]]
  );
@@ -368,9 +370,9 @@ mods.avaritia.ExtremeCrafting.addShaped(<DraconicEvolution:draconicShovel>,
  [null,null,null,null,null,<gregtech:gt.meta.plate:8792>,<gregtech:gt.meta.plate:8792>,<gregtech:gt.multiitem.technological:30503>,<gregtech:gt.meta.plate:8792>],
  [null,null,null,null,null,null,<gregtech:gt.meta.plate:8792>,<gregtech:gt.meta.plate:8792>,<gregtech:gt.meta.plate:8792>],
  [null,null,null,null,null,<gregtech:gt.meta.stickLong:8792>,null,<gregtech:gt.meta.plate:8792>,null],
- [null,null,null,<DraconicEvolution:draconiumEnergyCore>,<gregtech:gt.meta.stickLong:8792>,null,null,null,null],
- [null,null,<DraconicEvolution:wyvernCore>,<DraconicEvolution:draconiumFluxCapacitor>,null,null,null,null,null],
- [null,null,<gregtech:gt.meta.stickLong:8792>,<DraconicEvolution:wyvernCore>,<DraconicEvolution:draconiumEnergyCore>,null,null,null,null],
+ [null,null,null,<DraconicEvolution:draconiumEnergyCore:1>,<gregtech:gt.meta.stickLong:8792>,null,null,null,null],
+ [null,null,<DraconicEvolution:awakenedCore>,<DraconicEvolution:draconiumFluxCapacitor:1>,<DraconicEvolution:draconiumEnergyCore:1>,null,null,null,null],
+ [null,null,<gregtech:gt.meta.stickLong:8792>,<DraconicEvolution:awakenedCore>,null,null,null,null,null],
  [null,<gregtech:gt.meta.stickLong:8792>,null,null,null,null,null,null,null],
  [<gregtech:gt.meta.stickLong:8792>,null,null,null,null,null,null,null,null]]
  );
@@ -410,6 +412,8 @@ recipes.addShaped(<gregtech:gt.multitileentity:32021>,
  [    <ore:plateCurvedDraconium>,    <ore:stickLongDraconium>,    <ore:plateCurvedDraconium>], 
  [    <ore:plateCurvedDraconium>,    <ore:stickLongDraconium>,    <ore:plateCurvedDraconium>]]
  );
+
+ 
 
  
  
